@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/sax
+END
+saxutils.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/sax/saxutils.py
+END
+writer.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/sax/writer.py
+END
+_exceptions.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/sax/_exceptions.py
+END
+expatreader.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/sax/expatreader.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/sax/__init__.py
+END
+saxexts.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/sax/saxexts.py
+END
+saxlib.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/sax/saxlib.py
+END
+handler.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/sax/handler.py
+END
+sax2exts.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/sax/sax2exts.py
+END
+xmlreader.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/sax/xmlreader.py
+END

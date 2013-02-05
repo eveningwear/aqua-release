@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/etree
+END
+cElementTree.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/etree/cElementTree.py
+END
+ElementPath.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/etree/ElementPath.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/etree/__init__.py
+END
+ElementInclude.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/etree/ElementInclude.py
+END
+ElementTree.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/etree/ElementTree.py
+END

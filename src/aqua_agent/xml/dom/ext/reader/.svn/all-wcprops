@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/ext/reader
+END
+PyExpat.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/ext/reader/PyExpat.py
+END
+Sgmlop.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/ext/reader/Sgmlop.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/ext/reader/__init__.py
+END
+HtmlSax.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/ext/reader/HtmlSax.py
+END
+Sax2Lib.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/ext/reader/Sax2Lib.py
+END
+HtmlLib.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/ext/reader/HtmlLib.py
+END
+Sax.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/ext/reader/Sax.py
+END
+Sax2.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/ext/reader/Sax2.py
+END

@@ -1,0 +1,98 @@
+---
+name: aqua
+director_uuid: 5bef36db-4699-4889-879c-5b5e7095da47
+
+release:
+  name: myaqua
+  version: 15.4-dev
+
+compilation:
+  workers: 4
+  network: default
+  cloud_properties:
+    ram: 2048
+    disk: 8096
+    cpu: 4
+
+update:
+  canaries: 1
+  canary_watch_time: 3000-90000
+  update_watch_time: 3000-90000
+  max_in_flight: 4
+  max_errors: 1
+
+networks:
+
+- name: default
+  subnets:
+  - range: 10.42.114.0/23
+    reserved:
+    - 10.42.114.2 - 10.42.114.9
+    - 10.42.115.245 - 10.42.115.254
+    static:
+    - 10.42.114.10 - 10.42.114.140
+    - 10.42.115.233 - 10.42.115.240
+    gateway: 10.42.114.1
+    dns:
+    - 172.22.22.153
+    - 172.22.22.154
+    cloud_properties:
+      name: VLAN1036
+- name: lb
+  subnets:
+  - range: 10.42.40.0/21
+    static:
+    - 10.42.40.117 - 10.42.40.120
+    reserved:
+    - 10.42.40.2 - 10.42.40.116
+    - 10.42.40.121 - 10.42.47.254
+    dns:
+    - 172.22.22.153
+    - 172.22.22.154
+    cloud_properties:
+      name: VLAN1005
+
+resource_pools:
+
+- name: infrastructure
+  network: default
+  size: 3
+  stemcell:
+    name: bosh-stemcell
+    version: 0.6.4
+  cloud_properties:
+    ram: 4096
+    disk: 8192
+    cpu: 1
+  env:
+    bosh:
+      # password generated using mkpasswd -m sha-512
+      password: $6$66pTgip9$1FgWAj2uKEUUQj1cnJKXm9xdnhd.jJKmERB/o4Mc/8PPOp8ba6FTv206M3RzPOuZdPlifNjLJaGzysz0OfXxV0
+
+jobs:
+
+- name: aqua_agent
+  template: aqua_agent
+  instances: 3
+  resource_pool: infrastructure
+  persistent_disk: 8192
+  networks:
+  - name: default
+    static_ips:
+    - 10.42.115.233 - 10.42.115.235
+
+properties:
+  domain: cf110.dev.las01.vcsops.com
+
+  env:
+
+  networks:
+    apps: default
+    management: default
+
+  aqua_agent:
+    rsa_keys:
+      public: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDjRoEAigablpFsAylyshA3KR1ez4zR4tFECDeq8GGKzlzg5y3siyKtOrm9CuKhgtIXh2E1vR4RSUJsYf0X/HLYZSPqmfyOqXBNPHX3MUUlC2NUIetq1XPi+WAZNuwdu/Ez0qwtH9PbNbse7N1wHrV0borsKhG83CONJj9OkQdHNmzXcPa6tVtJZLpiV6YEhjUMhi73TU7a11z1arcuy1Lw6uH76+zJd7We8R4MKy3BTftyYkoKrdwZMmnZWBQzcuxK0DUfEG77ts10hpnaCGyezDqTboOu5Y6XuacAhhlvOaEu0VqE4P+2HOr4X92Rzbf7epuHrmj9lAx0vkDEcBiD"
+      private: "-----BEGIN RSA PRIVATE KEY-----\nMIIEogIBAAKCAQEA40aBAIoGm5aRbAMpcrIQNykdXs+M0eLRRAg3qvBhis5c4Oct\n7IsirTq5vQrioYLSF4dhNb0eEUlCbGH9F/xy2GUj6pn8jqlwTTx19zFFJQtjVCHr\natVz4vlgGTbsHbvxM9KsLR/T2zW7HuzdcB61dG6K7CoRvNwjjSY/TpEHRzZs13D2\nurVbSWS6YlemBIY1DIYu901O2tdc9Wq3LstS8Orh++vsyXe1nvEeDCstwU37cmJK\nCq3cGTJp2VgUM3LsStA1HxBu+7bNdIaZ2ghsnsw6k26DruWOl7mnAIYZbzmhLtFa\nhOD/thzq+F/dkc23+3qbh65o/ZQMdL5AxHAYgwIDAQABAoIBABx/yMlihXWZKd8b\nfmUNgw8HrtEmwYfII2mehix/PBwFyIvDMXUJ9W03gfb8mHKcTu/4X+43KsAMKbIh\nj3UkiNotxJU0fgD9qkFlJX27xenhRbFVF4or/f4mOzCuPGl2Gcbf0gtOhGhmknJM\nTXAzyZkyC2WV2OePyz114FZfxUPeiLlUW0eoCCvfUC5PYWRxiwYWkFUXYsdSiEnx\nt4qMptDUcnCnQAEWecE9vpX9PoXfdym64SH8iwY2QrGyJAjywccAENa00Gq1V8jI\nvmyLo2VK7L9WOkzfbo+hvZ6aj0XAEWwlrfr5BUUbl3lRdVx8xFtwF8otkIp7kjMR\n3LqhKiECgYEA+sBMgs2tD6Yo22hlgO29AA7QRMwy5SyRWUXWQ4SgzKw8OEsHycb2\nImtgJudsLj2ro2Zg1GdNmEYP9MEnbWtnxKkAnqSyfvNaghlDLIdIHhHlcg0WKA2Z\nzOG2o/cYgAZcomJRMT8riv41mwc9yO3P82RA/g6pfrZ/9HKL7QN2ZSsCgYEA6Ahn\nyFhWnWGVVdxdsBdBV6SBsTwe1x+vYS/MOnaC84AUTPNwi6rFBajVsLAfHVJ6YDvK\nS46jtPEvwwk2JHk03+4C7g0Ji53E0nx0PACCoSJayfMYMqnHAhkwBHWEV+uYDW7j\nZ53V2HXWGUZFcngwVMB0g8u24+vdTxBWWBmCngkCgYB8d4XDC/sSoIT5XBm+ZMQD\nSlchP0coMPY5HQxdWXFEB16hBsVn6EX3EduZlBhD38LaChCYfmqq4mQ7NsGuc7j/\ninBPTyt3Dq7nk0ifyssGehWthkdwPEgSxhuVyiq0KfRDepAY5OVlSggr2u1VVo55\nn1MPiRGjX02mdlF0pdpYHwKBgAreie4KpVQOBC7XedQL4tW2MRUaWd997ntA//Il\nJxE9CLZqGPWR9FTFie0S8wIuoOjtJBbSAb0yJyidv9mJi/6Jab25Ap91roilp9Q/\nud7Oey5GovWMmnPwth0fXCm6MY8/iIuMCz5ulq7sacho9OqjcVHTMygOHnnbrA/I\nciPxAoGATv6zEbjXW0k2NbS7ozZirNo8CWnzWO7F9B9P8XVqK5vyvdMadPNovSSC\n7Fckl7KSTEJot8cUqtrmfWfkdv82Am5GyHiD+chb1V3+uFRFfQy1ZUecEf3xClnn\nuBhi78jUVMeWfD9fOvAOpnYqvN5tt5ivhQBDlU3nKDeC0GDAyrI=\n-----END RSA PRIVATE KEY-----\n"
+    address: 10.42.115.233 - 10.42.115.235
+

@@ -1,0 +1,32 @@
+--- 
+builds: 
+  e7c00a8ba4279164347d11cf89870e656c82d1ca: 
+    version: 1
+  15ce80a5480940b9f2250d362cd5aa284982a8c8: 
+    version: 2
+  c3cee726f13ad9ac6f1837104fb72cdb0e402ca5: 
+    version: 3
+  6944675853c02c523d345dc7d714893f5fdef812: 
+    version: 4
+  0cb5602bef1c7fe735c4c5dd2ad64eb47a36804e: 
+    version: 5
+  c7a041b7e0c27b8e4955a109620c035c8e8b0505: 
+    version: 6
+  10ef27644e80f878050ee5a052d89cfd61698c13: 
+    version: 7
+  c990f1b8ca2e6018aff42e5eb127fd3fc890c744: 
+    version: 8
+  07120ed511566685aede350ab67426a02606abc4: 
+    version: 9
+  f4b35534359a3b86c185b7bdc6602bab415bc626: 
+    version: 10
+  dcf1033aa658795ee73f15af122897b5cb3679b9: 
+    version: 11
+  ff32cd0bec044a3a45001d6248ae88538da587ba: 
+    version: 12
+  e96243e820ed3bca8331a3d19909980669744cae: 
+    version: 13
+  18f8f0cec21ddfe7607db4fdc13526a041b02f17: 
+    version: 14
+  6b98c9c184d855a08bb3537340513ff64512e8f1: 
+    version: 15

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/wstools
+END
+WSDLTools.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/wstools/WSDLTools.py
+END
+TimeoutSocket.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/wstools/TimeoutSocket.py
+END
+XMLname.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/wstools/XMLname.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/wstools/__init__.py
+END
+logging.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/wstools/logging.py
+END
+UserTuple.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/wstools/UserTuple.py
+END
+Utility.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/wstools/Utility.py
+END
+Namespaces.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/wstools/Namespaces.py
+END
+XMLSchema.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/wstools/XMLSchema.py
+END
+c14n.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/wstools/c14n.py
+END

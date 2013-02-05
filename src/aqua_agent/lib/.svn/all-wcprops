@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/lib
+END
+_mysql.so.10.5.4
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/lib/_mysql.so.10.5.4
+END
+_mysql.so.powerpc.10.5.4
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/lib/_mysql.so.powerpc.10.5.4
+END
+_mysql.so.i386.10.5.4
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/lib/_mysql.so.i386.10.5.4
+END
+_mysql.so.x86.10.5.4
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/lib/_mysql.so.x86.10.5.4
+END
+_mysql.so.x86.10.5.6
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/lib/_mysql.so.x86.10.5.6
+END
+_mysql.so.i386.10.4.9
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/lib/_mysql.so.i386.10.4.9
+END

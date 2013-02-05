@@ -1,0 +1,5 @@
+<Tasks title="list" username="yxli" sortpattern="linear" startDate="2012-11-21" startTime="20:3:0" type="ImmediateTasks" comment="" timeout="10" timezone="CST">
+  <Task priority="1" type="RunCmd">
+    <param name="CmdText" value="ls -l"/>
+  </Task>
+</Tasks>

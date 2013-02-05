@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/parsers
+END
+sgmllib.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/parsers/sgmllib.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/parsers/__init__.py
+END
+expat.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/parsers/expat.py
+END

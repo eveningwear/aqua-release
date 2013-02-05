@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/MySQLdb
+END
+release.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/MySQLdb/release.py
+END
+times.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/MySQLdb/times.py
+END
+connections.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/MySQLdb/connections.py
+END
+converters.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/MySQLdb/converters.py
+END
+cursors.pyo
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/MySQLdb/cursors.pyo
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/MySQLdb/__init__.py
+END
+__init__.pyo
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/MySQLdb/__init__.pyo
+END
+cursors.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/MySQLdb/cursors.py
+END
+converters.pyo
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/MySQLdb/converters.pyo
+END
+connections.pyo
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/MySQLdb/connections.pyo
+END
+times.pyo
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/MySQLdb/times.pyo
+END
+release.pyo
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/MySQLdb/release.pyo
+END

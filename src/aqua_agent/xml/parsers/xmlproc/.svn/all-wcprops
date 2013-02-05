@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/parsers/xmlproc
+END
+dtdparser.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/parsers/xmlproc/dtdparser.py
+END
+_outputters.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/parsers/xmlproc/_outputters.py
+END
+utils.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/parsers/xmlproc/utils.py
+END
+xcatalog.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/parsers/xmlproc/xcatalog.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/parsers/xmlproc/__init__.py
+END
+xmldtd.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/parsers/xmlproc/xmldtd.py
+END
+xmlproc.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/parsers/xmlproc/xmlproc.py
+END
+errors.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/parsers/xmlproc/errors.py
+END
+namespace.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/parsers/xmlproc/namespace.py
+END
+xmlapp.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/parsers/xmlproc/xmlapp.py
+END
+xmlutils.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/parsers/xmlproc/xmlutils.py
+END
+charconv.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/parsers/xmlproc/charconv.py
+END
+xmlval.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/parsers/xmlproc/xmlval.py
+END
+catalog.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/parsers/xmlproc/catalog.py
+END

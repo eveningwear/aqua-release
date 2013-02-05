@@ -1,0 +1,5 @@
+check process aqua_agent
+  with pidfile /var/vcap/sys/run/aqua_agent/aqua_agent.pid
+  start program "/var/vcap/jobs/aqua_agent/bin/aqua_agent_ctl start"
+  stop program "/var/vcap/jobs/aqua_agent/bin/aqua_agent_ctl stop"
+  group vcap

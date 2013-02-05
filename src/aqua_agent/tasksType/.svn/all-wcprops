@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/qms/!svn/ver/208/trunk/qmsClient/src/tasksType
+END
+MonthlyTasksMgr.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/qms/!svn/ver/265/trunk/qmsClient/src/tasksType/MonthlyTasksMgr.py
+END
+DailyTasksMgr.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/tasksType/DailyTasksMgr.py
+END
+TasksTypeMgr.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/qms/!svn/ver/208/trunk/qmsClient/src/tasksType/TasksTypeMgr.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/tasksType/__init__.py
+END
+CustomizeTasksMgr.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/qms/!svn/ver/208/trunk/qmsClient/src/tasksType/CustomizeTasksMgr.py
+END
+ImmediateTasksMgr.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/tasksType/ImmediateTasksMgr.py
+END
+WeeklyTasksMgr.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/qms/!svn/ver/180/trunk/qmsClient/src/tasksType/WeeklyTasksMgr.py
+END
+OnceTasksMgr.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/qms/!svn/ver/183/trunk/qmsClient/src/tasksType/OnceTasksMgr.py
+END

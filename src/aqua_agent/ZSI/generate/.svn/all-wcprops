@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/generate
+END
+containers.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/generate/containers.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/generate/__init__.py
+END
+pyclass.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/generate/pyclass.py
+END
+utility.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/generate/utility.py
+END
+wsdl2python.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/generate/wsdl2python.py
+END
+wsdl2dispatch.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/generate/wsdl2dispatch.py
+END
+commands.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/generate/commands.py
+END

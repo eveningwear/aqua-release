@@ -1,0 +1,206 @@
+"""
+
+    machine.py
+    
+    Written by: Alon Ao (alonao@adobe.com)
+    Written by: Jacky Li (yxli@adobe.com)
+
+"""
+
+import subprocess, os, os.path, re, time, logging
+
+logging.config.fileConfig('log.config')
+logger = logging.getLogger()
+
+def __generateFile(filePath, content):
+        f = open(filePath, 'w')
+        f.write(content)
+        f.close()
+        
+def getWinPartitions():
+    __diskDic = {}
+    breakFind = False
+    for i in range(10):
+        stream = 'select disk '+str(i)+'\ndetail disk'
+        diskInfoGet = os.path.normpath(os.path.join(os.getcwd() + 'diskInfoGet.bat'))
+        __generateFile(diskInfoGet, stream)
+        cmd = 'diskpart /s ' + diskInfoGet
+        outPutStr= subprocess.Popen(cmd, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.STDOUT).stdout.read()
+        resultList = outPutStr.split('\n')
+        partNum = 1
+        for line in resultList:
+            if re.match('.*no disk.*', line.strip().lower()):
+                breakFind = True
+                break
+            if re.match('^Volume\s+\d+.*', line.strip()):
+                diskWithPartition = str(i+1) + ':' + str(partNum)
+                if re.match('.*FAT32.*', line.strip()):
+                    line = re.sub(r'(^Volume\s+\d+\s+\S\s+).*(FAT32\s+.*)', r'\1\2', line.strip())
+                elif re.match('.*NTFS.*', line.strip()):
+                    line = re.sub(r'(^Volume\s+\d+\s+\S\s+).*(NTFS\s+.*)', r'\1\2', line.strip())
+                infoList = line.strip().split()
+                newInforList = infoList[3:]
+                newInforList.insert(0, diskWithPartition)
+                __diskDic[infoList[2]] = newInforList
+                if partNum==1 and i==1:
+                    __firstPart = infoList[2]
+                partNum+=1
+                logger.debug(line)
+        if breakFind:
+            break
+        #time.sleep(2)
+        
+    for key in __diskDic.keys():
+        logger.debug('key:' + key)
+        logger.debug('__diskDic[key]')
+        logger.debug(__diskDic[key])
+    return __diskDic.keys()
+
+def getWinOSName():
+    return 'Windows'
+
+def getWinMachineInfo():
+    machineInfo = {}
+    machineInfo['osName'] = getWinOSName()
+    machineInfo['partitions'] = getWinPartitions()
+    try:
+        machineInfo['sysVolume'] = re.sub(r'.*=([a-zA-Z]):', r'\1', os.system("set SystemDrive"))
+    except:
+        machineInfo['sysVolume'] = "C"
+    return machineInfo
+
+'''
+Mac version is written by Alon
+'''
+def getDiskInfo(diskName):
+    import plistlib
+    os.system("diskutil info -plist %s > /tmp/diskinfo.plist" % diskName)
+    pl = plistlib.readPlist("/tmp/diskinfo.plist")
+    return pl
+
+def getVolumeInfo(volumeName):
+    import plistlib
+    logger.debug('get info of /Volumes/%s' % volumeName)
+    os.system("diskutil info -plist '/Volumes/%s' > /tmp/volumeinfo.plist" % volumeName)
+    pl = plistlib.readPlist("/tmp/volumeinfo.plist")
+    return pl
+
+def getMacPartitions():
+    return getMacDisks()['VolumesFromDisks']
+
+def getMacDisks():
+    import plistlib
+    os.system('diskutil list -plist > /tmp/disk.plist')
+    pl = plistlib.readPlist("/tmp/disk.plist")
+    return pl
+
+def getMacTargetPartition():
+    targetPartitions = []
+    sysVol = None
+    disks = getMacDisks()['AllDisks']
+    for disk in disks:
+        diskInfo = getDiskInfo(disk)
+        volumeName = diskInfo['VolumeName']
+        if volumeName: 
+            restToolPath = '/Volumes/%s/QMSClient' % volumeName
+            if not os.path.exists(restToolPath):
+#                if diskInfo['Internal'] and diskInfo['MountPoint'] != '/':
+                if diskInfo['GlobalPermissionsEnabled'] and diskInfo['MountPoint'] != '/':
+                    targetPartitions.append(volumeName)
+                elif diskInfo['MountPoint'] == '/':
+                    sysVol = volumeName
+            elif diskInfo['MountPoint'] == '/':
+                sysVol = volumeName
+    return (targetPartitions, sysVol)
+
+def getSysVol():
+    disks = getMacDisks()['AllDisks']
+    for disk in disks:
+        diskInfo = getDiskInfo(disk)
+        volumeName = diskInfo['VolumeName']
+        if volumeName and diskInfo['MountPoint'] == '/':
+            return volumeName
+
+def getMacOSName():
+    retFile = os.popen('sw_vers -productName')
+    return str(retFile.read())
+
+def getMacMachineInfo():
+    machineInfo = {}
+    machineInfo['osName'] = getMacOSName()
+    #machineInfo['partitions'] = getMacPartitions()
+    (machineInfo['partitions'], machineInfo['sysVolume']) = getMacTargetPartition()
+    return machineInfo
+
+def machinetoXML(machineInfo):
+    from xml.dom import minidom,Node
+    doc = minidom.Document()
+    machine = doc.createElement("Machine")
+    doc.appendChild(machine)
+    
+    machine.setAttribute("arch", machineInfo['osName'])
+    if 'sysVolume' in machineInfo:
+        machine.setAttribute("sysVol", machineInfo['sysVolume'])
+
+    partitions = doc.createElement("partitions")
+
+    machine.appendChild(partitions)
+
+    for p in machineInfo['partitions']:
+        patition = doc.createElement("Partition")
+        partitions.appendChild(patition)
+        label = doc.createElement("label")
+        patition.appendChild(label)
+        label.appendChild(doc.createTextNode(p))
+        
+    
+    #chapter.setAttribute("number","1")
+
+
+    #generate xml
+    #print doc.toprettyxml(indent = "\t")
+    return doc.toprettyxml()
+
+def toXML():
+    xmlStr = ''
+    if os.name == 'posix':
+        xmlStr = machinetoXML(getMacMachineInfo())
+    if os.name == 'nt':
+        xmlStr = machinetoXML(getWinMachineInfo())
+
+    return xmlStr
+
+'''  import os   
+
+    #ret = os.popen('df', 'w')
+    #print 'ret:' + ret
+    #print 'download finished'
+    
+    import subprocess
+    cmd = 'df'
+    str1 = '/dev/disk0s2    58458112 32313384  26144728    56%    /Volumes/10.4.10'
+    str1 = 'map auto_home          0        0         0   100%    /home'\
+    '/dev/disk0s2    58458112 32313384  26144728    56%    /Volumes/10.4.10 '\
+    '/dev/disk0s4    58458112    87312  58370800     1%    /Volumes/10.5 '\
+    '/dev/disk0s5   135749216 46193320  89555896    35%    /Volumes/image '
+
+    str1 = str1.replace('/', '_')
+    #str1 = 'abcd'
+    #subprocess.Popen(cmd, shell=True).stdout = 
+    #print "----" + pipe.read(1024)
+
+    import re
+    #p = re.compile('(dev)')
+    #print p.findall(str1)
+    #print p.match(str1).group()
+
+    logger.debug(str1)
+    p = re.compile('_dev_disk0s([\d\s]+)%\s+_Volumes_(\w+)')
+    m = p.match(str1)
+    logger.debug(m.group(0))
+    logger.debug(m.group(1))
+    logger.debug(m.group(2))
+'''
+'''
+The command of get system info in windows: systeminfo
+'''

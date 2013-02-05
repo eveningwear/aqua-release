@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI
+END
+TCtimes.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/TCtimes.py
+END
+address.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/address.py
+END
+parse.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/parse.py
+END
+writer.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/writer.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/__init__.py
+END
+TC.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/TC.py
+END
+resolvers.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/resolvers.py
+END
+ServiceContainer.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/ServiceContainer.py
+END
+client.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/client.py
+END
+auth.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/auth.py
+END
+digest_auth.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/digest_auth.py
+END
+fault.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/fault.py
+END
+schema.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/schema.py
+END
+typeinterpreter.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/typeinterpreter.py
+END
+TCapache.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/TCapache.py
+END
+TCnumbers.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/TCnumbers.py
+END
+dispatch.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/dispatch.py
+END
+TCcompound.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/TCcompound.py
+END
+ServiceProxy.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/ServiceProxy.py
+END
+version.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/ZSI/version.py
+END

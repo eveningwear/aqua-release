@@ -1,0 +1,4 @@
+---
+name: aqua_agent
+files:
+- aqua_agent/**/*

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/qms/!svn/ver/174/trunk/qmsClient/src/timezone
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/timezone/__init__.py
+END
+timezone.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/qms/!svn/ver/174/trunk/qmsClient/src/timezone/timezone.py
+END

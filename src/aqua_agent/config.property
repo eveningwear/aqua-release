@@ -1,0 +1,6 @@
+manager=nlu
+owner=yxli
+wsserver=cmms.cloudfoundry.com
+wsserver1=10.42.115.1
+wsserver2=172.20.219.2
+wsport=8080

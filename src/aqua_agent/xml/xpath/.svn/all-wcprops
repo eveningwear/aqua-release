@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xpath
+END
+ParsedRelativeLocationPath.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xpath/ParsedRelativeLocationPath.py
+END
+pyxpath.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xpath/pyxpath.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xpath/__init__.py
+END
+ExpandedNameWrapper.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xpath/ExpandedNameWrapper.py
+END
+Context.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xpath/Context.py
+END
+ParsedAbbreviatedRelativeLocationPath.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xpath/ParsedAbbreviatedRelativeLocationPath.py
+END
+XPathParserBase.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xpath/XPathParserBase.py
+END
+yappsrt.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xpath/yappsrt.py
+END
+ParsedAxisSpecifier.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xpath/ParsedAxisSpecifier.py
+END
+XPathGrammar.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xpath/XPathGrammar.py
+END
+ParsedExpr.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xpath/ParsedExpr.py
+END
+ParsedNodeTest.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xpath/ParsedNodeTest.py
+END
+ParsedPredicateList.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xpath/ParsedPredicateList.py
+END
+Set.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xpath/Set.py
+END
+MessageSource.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xpath/MessageSource.py
+END
+Util.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xpath/Util.py
+END
+ParsedAbsoluteLocationPath.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xpath/ParsedAbsoluteLocationPath.py
+END
+NamespaceNode.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xpath/NamespaceNode.py
+END
+Conversions.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xpath/Conversions.py
+END
+ParsedStep.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xpath/ParsedStep.py
+END
+BuiltInExtFunctions.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xpath/BuiltInExtFunctions.py
+END
+XPathParser.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xpath/XPathParser.py
+END
+CoreFunctions.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xpath/CoreFunctions.py
+END
+ParsedAbbreviatedAbsoluteLocationPath.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xpath/ParsedAbbreviatedAbsoluteLocationPath.py
+END

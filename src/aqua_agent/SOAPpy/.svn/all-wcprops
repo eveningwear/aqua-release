@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/qms/!svn/ver/241/trunk/qmsClient/src/SOAPpy
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/SOAPpy/__init__.py
+END
+SOAPBuilder.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/qms/!svn/ver/241/trunk/qmsClient/src/SOAPpy/SOAPBuilder.py
+END
+SOAP.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/SOAPpy/SOAP.py
+END
+Errors.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/SOAPpy/Errors.py
+END
+Client.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/SOAPpy/Client.py
+END
+Utilities.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/SOAPpy/Utilities.py
+END
+URLopener.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/SOAPpy/URLopener.py
+END
+NS.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/SOAPpy/NS.py
+END
+WSDL.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/SOAPpy/WSDL.py
+END
+Server.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/SOAPpy/Server.py
+END
+Config.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/SOAPpy/Config.py
+END
+GSIServer.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/SOAPpy/GSIServer.py
+END
+Parser.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/SOAPpy/Parser.py
+END
+Types.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/SOAPpy/Types.py
+END
+version.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/SOAPpy/version.py
+END

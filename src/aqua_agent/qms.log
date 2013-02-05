@@ -1,0 +1,456 @@
+[INFO ] 2012-11-21 19:10:41 restAdm.py:36 - -----Startup restTask Admin
+[INFO ] 2012-11-21 19:16:04 restAdm.py:36 - -----Startup restTask Admin
+[INFO ] 2012-11-21 19:17:29 restAdm.py:36 - -----Startup restTask Admin
+[INFO ] 2012-11-21 19:17:33 restWkr.py:37 - -----Startup restTask worker
+[INFO ] 2012-11-21 19:17:33 restSchTkMgr.py:27 - -----Startup restTask schedule Manager
+[INFO ] 2012-11-21 19:17:33 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Immediate
+[INFO ] 2012-11-21 19:17:33 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Once
+[INFO ] 2012-11-21 19:17:33 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Daily
+[INFO ] 2012-11-21 19:17:33 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Weekly
+[INFO ] 2012-11-21 19:17:33 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Monthly
+[INFO ] 2012-11-21 19:17:33 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Customize
+[INFO ] 2012-11-21 19:17:33 machineAnswer.py:35 - -----Startup machine Answer
+[INFO ] 2012-11-21 19:17:35 restAdm.py:87 - Waiting for receiving new job...
+[INFO ] 2012-11-21 19:17:35 remoteListener.py:31 - -----Startup remote listener
+[INFO ] 2012-11-21 19:17:35 policyServer.py:34 - -----Startup Policy Server
+[INFO ] 2012-11-21 19:19:03 restAdm.py:106 - Receiving a task file task_415224d6-33cd-11e2-afc1-406c8f1569e2.tk
+[INFO ] 2012-11-21 19:19:05 TasksTypeMgr.py:161 - Task task_415224d6-33cd-11e2-afc1-406c8f1569e2.tk will be kicked off on 2012-11-21 19:19:04 Wednesday (China Standard Time)
+[INFO ] 2012-11-21 19:19:05 restAdm.py:87 - Waiting for receiving new job...
+[INFO ] 2012-11-21 19:19:06 restWkr.py:80 - Worker gets new task:/QMSClient/tasklist/schedule/task_415224d6-33cd-11e2-afc1-406c8f1569e2.tk
+[INFO ] 2012-11-21 19:19:09 baseTask.py:20 - Create a new RunCmd task with priority 100
+[INFO ] 2012-11-21 19:19:09 restWkr.py:228 - Task Type is RunCmd with Priority 100
+[INFO ] 2012-11-21 19:19:09 baseTask.py:51 - CmdText:ls -l
+[INFO ] 2012-11-21 19:19:10 restWkr.py:251 - Finished performing task
+[INFO ] 2012-11-21 19:19:12 restWkr.py:85 - Worker finishes task:/QMSClient/tasklist/schedule/task_415224d6-33cd-11e2-afc1-406c8f1569e2.tk
+[INFO ] 2012-11-21 19:19:12 restSchTkMgr.py:285 - Move finished overdue taskfile task_415224d6-33cd-11e2-afc1-406c8f1569e2.tk to Overdue directory
+[INFO ] 2012-11-21 19:20:13 TasksTypeMgr.py:161 - Task task_415224d6-33cd-11e2-afc1-406c8f1569e2.tk will be kicked off on 2012-11-21 19:20:13 Wednesday (China Standard Time)
+[INFO ] 2012-11-21 19:20:14 restWkr.py:80 - Worker gets new task:/QMSClient/tasklist/schedule/task_415224d6-33cd-11e2-afc1-406c8f1569e2.tk
+[INFO ] 2012-11-21 19:20:17 baseTask.py:20 - Create a new RunCmd task with priority 100
+[INFO ] 2012-11-21 19:20:17 restWkr.py:228 - Task Type is RunCmd with Priority 100
+[INFO ] 2012-11-21 19:20:17 baseTask.py:51 - CmdText:ls -l
+[INFO ] 2012-11-21 19:20:18 restWkr.py:251 - Finished performing task
+[INFO ] 2012-11-21 19:20:20 restWkr.py:85 - Worker finishes task:/QMSClient/tasklist/schedule/task_415224d6-33cd-11e2-afc1-406c8f1569e2.tk
+[INFO ] 2012-11-21 19:20:20 restSchTkMgr.py:285 - Move finished overdue taskfile task_415224d6-33cd-11e2-afc1-406c8f1569e2.tk to Overdue directory
+[INFO ] 2012-11-21 19:29:26 TasksTypeMgr.py:161 - Task task_415224d6-33cd-11e2-afc1-406c8f1569e2.tk will be kicked off on 2012-11-21 19:29:26 Wednesday (China Standard Time)
+[INFO ] 2012-11-21 19:29:27 restWkr.py:80 - Worker gets new task:/QMSClient/tasklist/schedule/task_415224d6-33cd-11e2-afc1-406c8f1569e2.tk
+[INFO ] 2012-11-21 19:29:30 baseTask.py:20 - Create a new RunCmd task with priority 100
+[INFO ] 2012-11-21 19:29:30 restWkr.py:228 - Task Type is RunCmd with Priority 100
+[INFO ] 2012-11-21 19:29:30 baseTask.py:51 - CmdText:ls -l
+[INFO ] 2012-11-21 19:29:32 restWkr.py:251 - Finished performing task
+[INFO ] 2012-11-21 19:29:34 restWkr.py:85 - Worker finishes task:/QMSClient/tasklist/schedule/task_415224d6-33cd-11e2-afc1-406c8f1569e2.tk
+[INFO ] 2012-11-21 19:29:34 restSchTkMgr.py:285 - Move finished overdue taskfile task_415224d6-33cd-11e2-afc1-406c8f1569e2.tk to Overdue directory
+[INFO ] 2012-11-21 19:44:11 restAdm.py:36 - -----Startup restTask Admin
+[INFO ] 2012-11-21 19:48:05 restAdm.py:36 - -----Startup restTask Admin
+[INFO ] 2012-11-21 19:48:09 restWkr.py:37 - -----Startup restTask worker
+[INFO ] 2012-11-21 19:48:09 restSchTkMgr.py:27 - -----Startup restTask schedule Manager
+[INFO ] 2012-11-21 19:48:09 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Immediate
+[INFO ] 2012-11-21 19:48:09 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Once
+[INFO ] 2012-11-21 19:48:09 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Daily
+[INFO ] 2012-11-21 19:48:09 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Weekly
+[INFO ] 2012-11-21 19:48:09 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Monthly
+[INFO ] 2012-11-21 19:48:09 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Customize
+[INFO ] 2012-11-21 19:48:09 machineAnswer.py:35 - -----Startup machine Answer
+[INFO ] 2012-11-21 19:48:11 restAdm.py:87 - Waiting for receiving new job...
+[INFO ] 2012-11-21 19:48:11 policyServer.py:34 - -----Startup Policy Server
+[INFO ] 2012-11-21 19:48:11 remoteListener.py:31 - -----Startup remote listener
+[INFO ] 2012-11-21 19:48:43 restAdm.py:106 - Receiving a task file task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk
+[INFO ] 2012-11-21 19:48:46 TasksTypeMgr.py:161 - Task task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk will be kicked off on 2012-11-21 19:48:45 Wednesday (China Standard Time)
+[INFO ] 2012-11-21 19:48:46 restAdm.py:87 - Waiting for receiving new job...
+[INFO ] 2012-11-21 19:48:47 restWkr.py:80 - Worker gets new task:/AquaClient/tasklist/schedule/task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk
+[INFO ] 2012-11-21 19:48:50 baseTask.py:20 - Create a new RunCmd task with priority 100
+[INFO ] 2012-11-21 19:48:50 restWkr.py:228 - Task Type is RunCmd with Priority 100
+[INFO ] 2012-11-21 19:48:50 baseTask.py:51 - CmdText:ls -l
+[INFO ] 2012-11-21 19:48:51 restWkr.py:251 - Finished performing task
+[INFO ] 2012-11-21 19:48:54 restWkr.py:85 - Worker finishes task:/AquaClient/tasklist/schedule/task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk
+[INFO ] 2012-11-21 19:48:54 restSchTkMgr.py:285 - Move finished overdue taskfile task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk to Overdue directory
+[INFO ] 2012-11-21 19:55:05 restAdm.py:36 - -----Startup restTask Admin
+[INFO ] 2012-11-21 19:55:10 restWkr.py:37 - -----Startup restTask worker
+[INFO ] 2012-11-21 19:55:10 restSchTkMgr.py:27 - -----Startup restTask schedule Manager
+[INFO ] 2012-11-21 19:55:10 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Immediate
+[INFO ] 2012-11-21 19:55:10 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Once
+[INFO ] 2012-11-21 19:55:10 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Daily
+[INFO ] 2012-11-21 19:55:10 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Weekly
+[INFO ] 2012-11-21 19:55:10 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Monthly
+[INFO ] 2012-11-21 19:55:10 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Customize
+[INFO ] 2012-11-21 19:55:10 machineAnswer.py:35 - -----Startup machine Answer
+[INFO ] 2012-11-21 19:55:13 restAdm.py:87 - Waiting for receiving new job...
+[INFO ] 2012-11-21 19:55:13 policyServer.py:34 - -----Startup Policy Server
+[INFO ] 2012-11-21 19:55:13 remoteListener.py:31 - -----Startup remote listener
+[INFO ] 2012-11-21 19:55:59 restAdm.py:106 - Receiving a task file task_6a23ee4e-33d2-11e2-809e-406c8f1569e2.tk
+[INFO ] 2012-11-21 19:56:01 TasksTypeMgr.py:161 - Task task_6a23ee4e-33d2-11e2-809e-406c8f1569e2.tk will be kicked off on 2012-11-21 19:56:00 Wednesday (China Standard Time)
+[INFO ] 2012-11-21 19:56:01 restAdm.py:87 - Waiting for receiving new job...
+[INFO ] 2012-11-21 19:56:02 restWkr.py:80 - Worker gets new task:/AquaClient/tasklist/schedule/task_6a23ee4e-33d2-11e2-809e-406c8f1569e2.tk
+[INFO ] 2012-11-21 19:56:06 baseTask.py:20 - Create a new RunCmd task with priority 100
+[INFO ] 2012-11-21 19:56:06 restWkr.py:228 - Task Type is RunCmd with Priority 100
+[INFO ] 2012-11-21 19:56:06 baseTask.py:51 - CmdText:ls
+[INFO ] 2012-11-21 19:56:08 restWkr.py:251 - Finished performing task
+[INFO ] 2012-11-21 19:56:10 restWkr.py:85 - Worker finishes task:/AquaClient/tasklist/schedule/task_6a23ee4e-33d2-11e2-809e-406c8f1569e2.tk
+[INFO ] 2012-11-21 19:56:10 restSchTkMgr.py:285 - Move finished overdue taskfile task_6a23ee4e-33d2-11e2-809e-406c8f1569e2.tk to Overdue directory
+[INFO ] 2012-11-21 20:02:38 restAdm.py:36 - -----Startup restTask Admin
+[INFO ] 2012-11-21 20:02:43 restWkr.py:37 - -----Startup restTask worker
+[INFO ] 2012-11-21 20:02:43 restSchTkMgr.py:27 - -----Startup restTask schedule Manager
+[INFO ] 2012-11-21 20:02:43 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Immediate
+[INFO ] 2012-11-21 20:02:43 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Once
+[INFO ] 2012-11-21 20:02:43 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Daily
+[INFO ] 2012-11-21 20:02:43 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Weekly
+[INFO ] 2012-11-21 20:02:43 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Monthly
+[INFO ] 2012-11-21 20:02:43 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Customize
+[INFO ] 2012-11-21 20:02:43 machineAnswer.py:35 - -----Startup machine Answer
+[INFO ] 2012-11-21 20:02:47 restAdm.py:87 - Waiting for receiving new job...
+[INFO ] 2012-11-21 20:02:47 policyServer.py:34 - -----Startup Policy Server
+[INFO ] 2012-11-21 20:02:47 remoteListener.py:31 - -----Startup remote listener
+[INFO ] 2012-11-21 20:03:13 restAdm.py:106 - Receiving a task file task_6cc0a876-33d3-11e2-9e59-406c8f1569e2.tk
+[INFO ] 2012-11-21 20:03:15 TasksTypeMgr.py:161 - Task task_6cc0a876-33d3-11e2-9e59-406c8f1569e2.tk will be kicked off on 2012-11-21 20:03:14 Wednesday (China Standard Time)
+[INFO ] 2012-11-21 20:03:15 restAdm.py:87 - Waiting for receiving new job...
+[INFO ] 2012-11-21 20:03:16 restWkr.py:80 - Worker gets new task:/AquaClient/tasklist/schedule/task_6cc0a876-33d3-11e2-9e59-406c8f1569e2.tk
+[INFO ] 2012-11-21 20:03:20 baseTask.py:20 - Create a new RunCmd task with priority 100
+[INFO ] 2012-11-21 20:03:20 restWkr.py:228 - Task Type is RunCmd with Priority 100
+[INFO ] 2012-11-21 20:03:20 baseTask.py:51 - CmdText:ls -l
+[INFO ] 2012-11-21 20:03:21 restWkr.py:251 - Finished performing task
+[INFO ] 2012-11-21 20:03:24 restWkr.py:85 - Worker finishes task:/AquaClient/tasklist/schedule/task_6cc0a876-33d3-11e2-9e59-406c8f1569e2.tk
+[INFO ] 2012-11-21 20:03:24 restSchTkMgr.py:285 - Move finished overdue taskfile task_6cc0a876-33d3-11e2-9e59-406c8f1569e2.tk to Overdue directory
+[INFO ] 2012-11-21 20:10:23 restAdm.py:36 - -----Startup restTask Admin
+[INFO ] 2012-11-21 20:10:27 restWkr.py:37 - -----Startup restTask worker
+[INFO ] 2012-11-21 20:10:27 restSchTkMgr.py:27 - -----Startup restTask schedule Manager
+[INFO ] 2012-11-21 20:10:27 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Immediate
+[INFO ] 2012-11-21 20:10:27 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Once
+[INFO ] 2012-11-21 20:10:27 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Daily
+[INFO ] 2012-11-21 20:10:27 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Weekly
+[INFO ] 2012-11-21 20:10:27 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Monthly
+[INFO ] 2012-11-21 20:10:27 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Customize
+[INFO ] 2012-11-21 20:10:27 machineAnswer.py:35 - -----Startup machine Answer
+[INFO ] 2012-11-21 20:10:30 restAdm.py:87 - Waiting for receiving new job...
+[INFO ] 2012-11-21 20:10:30 policyServer.py:34 - -----Startup Policy Server
+[INFO ] 2012-11-21 20:10:30 remoteListener.py:31 - -----Startup remote listener
+[INFO ] 2012-11-21 20:10:46 TasksTypeMgr.py:161 - Task task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk will be kicked off on 2012-11-21 20:10:46 Wednesday (China Standard Time)
+[INFO ] 2012-11-21 20:10:47 restWkr.py:80 - Worker gets new task:/AquaClient/tasklist/schedule/task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk
+[INFO ] 2012-11-21 20:10:50 baseTask.py:20 - Create a new RunCmd task with priority 100
+[INFO ] 2012-11-21 20:10:50 restWkr.py:228 - Task Type is RunCmd with Priority 100
+[INFO ] 2012-11-21 20:10:50 baseTask.py:51 - CmdText:ls -l
+[INFO ] 2012-11-21 20:10:52 restWkr.py:251 - Finished performing task
+[INFO ] 2012-11-21 20:10:54 restWkr.py:85 - Worker finishes task:/AquaClient/tasklist/schedule/task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk
+[INFO ] 2012-11-21 20:10:54 restSchTkMgr.py:285 - Move finished overdue taskfile task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk to Overdue directory
+[INFO ] 2012-11-21 20:11:57 TasksTypeMgr.py:161 - Task task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk will be kicked off on 2012-11-21 20:11:57 Wednesday (China Standard Time)
+[INFO ] 2012-11-21 20:11:58 restWkr.py:80 - Worker gets new task:/AquaClient/tasklist/schedule/task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk
+[INFO ] 2012-11-21 20:12:01 baseTask.py:20 - Create a new RunCmd task with priority 100
+[INFO ] 2012-11-21 20:12:01 restWkr.py:228 - Task Type is RunCmd with Priority 100
+[INFO ] 2012-11-21 20:12:01 baseTask.py:51 - CmdText:ls -l
+[INFO ] 2012-11-21 20:12:02 restWkr.py:251 - Finished performing task
+[INFO ] 2012-11-21 20:12:04 restWkr.py:85 - Worker finishes task:/AquaClient/tasklist/schedule/task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk
+[INFO ] 2012-11-21 20:12:04 restSchTkMgr.py:285 - Move finished overdue taskfile task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk to Overdue directory
+[INFO ] 2012-11-21 20:13:41 TasksTypeMgr.py:161 - Task task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk will be kicked off on 2012-11-21 20:13:41 Wednesday (China Standard Time)
+[INFO ] 2012-11-21 20:13:42 restWkr.py:80 - Worker gets new task:/AquaClient/tasklist/schedule/task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk
+[INFO ] 2012-11-21 20:13:44 baseTask.py:20 - Create a new RunCmd task with priority 100
+[INFO ] 2012-11-21 20:13:44 restWkr.py:228 - Task Type is RunCmd with Priority 100
+[INFO ] 2012-11-21 20:13:44 baseTask.py:51 - CmdText:ls -l
+[INFO ] 2012-11-21 20:13:45 restWkr.py:251 - Finished performing task
+[INFO ] 2012-11-21 20:13:45 restWkr.py:85 - Worker finishes task:/AquaClient/tasklist/schedule/task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk
+[INFO ] 2012-11-21 20:13:45 restSchTkMgr.py:285 - Move finished overdue taskfile task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk to Overdue directory
+[INFO ] 2012-11-21 20:15:07 restAdm.py:36 - -----Startup restTask Admin
+[INFO ] 2012-11-21 20:15:11 restWkr.py:37 - -----Startup restTask worker
+[INFO ] 2012-11-21 20:15:11 restSchTkMgr.py:27 - -----Startup restTask schedule Manager
+[INFO ] 2012-11-21 20:15:11 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Immediate
+[INFO ] 2012-11-21 20:15:11 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Once
+[INFO ] 2012-11-21 20:15:11 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Daily
+[INFO ] 2012-11-21 20:15:11 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Weekly
+[INFO ] 2012-11-21 20:15:11 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Monthly
+[INFO ] 2012-11-21 20:15:11 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Customize
+[INFO ] 2012-11-21 20:15:11 machineAnswer.py:35 - -----Startup machine Answer
+[INFO ] 2012-11-21 20:15:14 restAdm.py:87 - Waiting for receiving new job...
+[INFO ] 2012-11-21 20:15:14 remoteListener.py:31 - -----Startup remote listener
+[INFO ] 2012-11-21 20:15:14 policyServer.py:34 - -----Startup Policy Server
+[INFO ] 2012-11-21 20:15:44 TasksTypeMgr.py:161 - Task task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk will be kicked off on 2012-11-21 20:15:44 Wednesday (China Standard Time)
+[INFO ] 2012-11-21 20:15:45 restWkr.py:80 - Worker gets new task:/AquaClient/tasklist/schedule/task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk
+[INFO ] 2012-11-21 20:15:48 baseTask.py:20 - Create a new RunCmd task with priority 100
+[INFO ] 2012-11-21 20:15:48 restWkr.py:228 - Task Type is RunCmd with Priority 100
+[INFO ] 2012-11-21 20:15:48 baseTask.py:51 - CmdText:ls -l
+[INFO ] 2012-11-21 20:15:50 restWkr.py:251 - Finished performing task
+[INFO ] 2012-11-21 20:15:52 restWkr.py:85 - Worker finishes task:/AquaClient/tasklist/schedule/task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk
+[INFO ] 2012-11-21 20:15:52 restSchTkMgr.py:285 - Move finished overdue taskfile task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk to Overdue directory
+[INFO ] 2012-11-21 20:17:08 TasksTypeMgr.py:161 - Task task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk will be kicked off on 2012-11-21 20:17:07 Wednesday (China Standard Time)
+[INFO ] 2012-11-21 20:17:09 restWkr.py:80 - Worker gets new task:/AquaClient/tasklist/schedule/task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk
+[INFO ] 2012-11-21 20:17:11 baseTask.py:20 - Create a new RunCmd task with priority 100
+[INFO ] 2012-11-21 20:17:11 restWkr.py:228 - Task Type is RunCmd with Priority 100
+[INFO ] 2012-11-21 20:17:11 baseTask.py:51 - CmdText:ls -l
+[INFO ] 2012-11-21 20:17:13 restWkr.py:251 - Finished performing task
+[INFO ] 2012-11-21 20:17:13 restWkr.py:85 - Worker finishes task:/AquaClient/tasklist/schedule/task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk
+[INFO ] 2012-11-21 20:17:13 restSchTkMgr.py:285 - Move finished overdue taskfile task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk to Overdue directory
+[INFO ] 2012-11-21 20:18:06 TasksTypeMgr.py:161 - Task task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk will be kicked off on 2012-11-21 20:18:06 Wednesday (China Standard Time)
+[INFO ] 2012-11-21 20:18:07 restWkr.py:80 - Worker gets new task:/AquaClient/tasklist/schedule/task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk
+[INFO ] 2012-11-21 20:18:10 baseTask.py:20 - Create a new RunCmd task with priority 100
+[INFO ] 2012-11-21 20:18:10 restWkr.py:228 - Task Type is RunCmd with Priority 100
+[INFO ] 2012-11-21 20:18:10 baseTask.py:51 - CmdText:ls -l
+[INFO ] 2012-11-21 20:18:11 restWkr.py:251 - Finished performing task
+[INFO ] 2012-11-21 20:18:11 restWkr.py:85 - Worker finishes task:/AquaClient/tasklist/schedule/task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk
+[INFO ] 2012-11-21 20:18:11 restSchTkMgr.py:285 - Move finished overdue taskfile task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk to Overdue directory
+[INFO ] 2012-11-21 20:19:32 restAdm.py:36 - -----Startup restTask Admin
+[INFO ] 2012-11-21 20:19:39 restWkr.py:37 - -----Startup restTask worker
+[INFO ] 2012-11-21 20:19:39 restSchTkMgr.py:27 - -----Startup restTask schedule Manager
+[INFO ] 2012-11-21 20:19:39 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Immediate
+[INFO ] 2012-11-21 20:19:39 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Once
+[INFO ] 2012-11-21 20:19:39 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Daily
+[INFO ] 2012-11-21 20:19:39 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Weekly
+[INFO ] 2012-11-21 20:19:39 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Monthly
+[INFO ] 2012-11-21 20:19:39 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Customize
+[INFO ] 2012-11-21 20:19:39 machineAnswer.py:35 - -----Startup machine Answer
+[INFO ] 2012-11-21 20:19:42 restAdm.py:87 - Waiting for receiving new job...
+[INFO ] 2012-11-21 20:19:42 remoteListener.py:31 - -----Startup remote listener
+[INFO ] 2012-11-21 20:19:42 policyServer.py:34 - -----Startup Policy Server
+[INFO ] 2012-11-21 20:20:05 TasksTypeMgr.py:161 - Task task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk will be kicked off on 2012-11-21 20:20:05 Wednesday (China Standard Time)
+[INFO ] 2012-11-21 20:20:06 restWkr.py:80 - Worker gets new task:/AquaClient/tasklist/schedule/task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk
+[INFO ] 2012-11-21 20:20:09 baseTask.py:20 - Create a new RunCmd task with priority 100
+[INFO ] 2012-11-21 20:20:09 restWkr.py:228 - Task Type is RunCmd with Priority 100
+[INFO ] 2012-11-21 20:20:09 baseTask.py:51 - CmdText:ls -l
+[INFO ] 2012-11-21 20:20:11 restWkr.py:251 - Finished performing task
+[INFO ] 2012-11-21 20:20:13 restWkr.py:85 - Worker finishes task:/AquaClient/tasklist/schedule/task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk
+[INFO ] 2012-11-21 20:20:13 restSchTkMgr.py:285 - Move finished overdue taskfile task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk to Overdue directory
+[INFO ] 2012-11-21 20:28:41 TasksTypeMgr.py:161 - Task task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk will be kicked off on 2012-11-21 20:28:41 Wednesday (China Standard Time)
+[INFO ] 2012-11-21 20:28:42 restWkr.py:80 - Worker gets new task:/AquaClient/tasklist/schedule/task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk
+[INFO ] 2012-11-21 20:28:43 baseTask.py:20 - Create a new RunCmd task with priority 100
+[INFO ] 2012-11-21 20:28:43 restWkr.py:228 - Task Type is RunCmd with Priority 100
+[INFO ] 2012-11-21 20:28:43 baseTask.py:51 - CmdText:ls -l
+[INFO ] 2012-11-21 20:28:44 restWkr.py:251 - Finished performing task
+[INFO ] 2012-11-21 20:28:44 restWkr.py:85 - Worker finishes task:/AquaClient/tasklist/schedule/task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk
+[INFO ] 2012-11-21 20:28:44 restSchTkMgr.py:285 - Move finished overdue taskfile task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk to Overdue directory
+[INFO ] 2012-11-21 20:29:44 restAdm.py:36 - -----Startup restTask Admin
+[INFO ] 2012-11-21 20:29:48 restWkr.py:37 - -----Startup restTask worker
+[INFO ] 2012-11-21 20:29:48 restSchTkMgr.py:27 - -----Startup restTask schedule Manager
+[INFO ] 2012-11-21 20:29:48 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Immediate
+[INFO ] 2012-11-21 20:29:48 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Once
+[INFO ] 2012-11-21 20:29:48 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Daily
+[INFO ] 2012-11-21 20:29:48 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Weekly
+[INFO ] 2012-11-21 20:29:48 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Monthly
+[INFO ] 2012-11-21 20:29:48 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Customize
+[INFO ] 2012-11-21 20:29:48 machineAnswer.py:35 - -----Startup machine Answer
+[INFO ] 2012-11-21 20:29:52 restAdm.py:87 - Waiting for receiving new job...
+[INFO ] 2012-11-21 20:29:52 remoteListener.py:31 - -----Startup remote listener
+[INFO ] 2012-11-21 20:29:52 policyServer.py:34 - -----Startup Policy Server
+[INFO ] 2012-11-21 20:29:57 TasksTypeMgr.py:161 - Task task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk will be kicked off on 2012-11-21 20:29:57 Wednesday (China Standard Time)
+[INFO ] 2012-11-21 20:29:58 restWkr.py:80 - Worker gets new task:/AquaClient/tasklist/schedule/task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk
+[INFO ] 2012-11-21 20:30:01 baseTask.py:20 - Create a new RunCmd task with priority 100
+[INFO ] 2012-11-21 20:30:01 restWkr.py:228 - Task Type is RunCmd with Priority 100
+[INFO ] 2012-11-21 20:30:01 baseTask.py:51 - CmdText:ls -l
+[INFO ] 2012-11-21 20:30:03 restWkr.py:251 - Finished performing task
+[INFO ] 2012-11-21 20:30:05 restWkr.py:85 - Worker finishes task:/AquaClient/tasklist/schedule/task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk
+[INFO ] 2012-11-21 20:30:05 restSchTkMgr.py:285 - Move finished overdue taskfile task_66b33b8a-33d1-11e2-b373-406c8f1569e2.tk to Overdue directory
+[INFO ] 2012-11-21 22:48:18 restAdm.py:36 - -----Startup restTask Admin
+[INFO ] 2012-11-21 22:49:57 restAdm.py:36 - -----Startup restTask Admin
+[INFO ] 2012-11-21 22:51:55 restAdm.py:36 - -----Startup restTask Admin
+[INFO ] 2012-11-21 22:58:43 restAdm.py:36 - -----Startup restTask Admin
+[INFO ] 2012-11-21 22:58:44 restWkr.py:37 - -----Startup restTask worker
+[INFO ] 2012-11-21 22:58:44 restSchTkMgr.py:27 - -----Startup restTask schedule Manager
+[INFO ] 2012-11-21 22:58:44 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Immediate
+[INFO ] 2012-11-21 22:58:44 TasksTypeMgr.py:144 - Schedule a new Immediate task{'comment': '', 'startDate': '2012-11-21', 'timeout': '10', 'title': 'list files', 'fileName': 'task_415224d6-33cd-11e2-afc1-406c8f1569e2.tk', 'username': 'yxli', 'sortpattern': 'linear', 'startTime': '19:18:0', 'timezone': 'CST'}
+[INFO ] 2012-11-21 22:58:44 TasksTypeMgr.py:161 - Task task_415224d6-33cd-11e2-afc1-406c8f1569e2.tk will be kicked off on 2012-11-21 22:58:45 Wednesday (Mountain Standard Time)
+[INFO ] 2012-11-21 22:58:44 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Once
+[INFO ] 2012-11-21 22:58:44 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Daily
+[INFO ] 2012-11-21 22:58:44 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Weekly
+[INFO ] 2012-11-21 22:58:44 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Monthly
+[INFO ] 2012-11-21 22:58:44 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Customize
+[DEBUG] 2012-11-21 22:58:44 restWkr.py:72 - restTask Worker: waiting for new task...
+[INFO ] 2012-11-21 22:58:44 machineAnswer.py:35 - -----Startup machine Answer
+[DEBUG] 2012-11-21 22:58:44 machineAnswer.py:42 - machine Answer: waiting for connection...
+[INFO ] 2012-11-21 22:58:44 remoteListener.py:31 - -----Startup remote listener
+[INFO ] 2012-11-21 22:58:44 restAdm.py:87 - Waiting for receiving new job...
+[INFO ] 2012-11-21 22:58:44 policyServer.py:34 - -----Startup Policy Server
+[DEBUG] 2012-11-21 22:58:44 policyServer.py:40 - policy Server: waiting for connection...
+[INFO ] 2012-11-21 22:58:45 restWkr.py:80 - Worker gets new task:/home/jacky/AquaClient/tasklist/schedule/task_415224d6-33cd-11e2-afc1-406c8f1569e2.tk
+[DEBUG] 2012-11-21 22:58:45 restWkr.py:312 - from allTasks.RunCmd import childTask
+[INFO ] 2012-11-21 22:58:45 baseTask.py:20 - Create a new RunCmd task with priority 100
+[DEBUG] 2012-11-21 22:58:45 restWkr.py:206 - [(100, <allTasks.RunCmd.childTask object at 0x2080b90>)]
+[DEBUG] 2012-11-21 22:58:45 restWkr.py:218 - -----
+[DEBUG] 2012-11-21 22:58:45 restWkr.py:219 - [(100, <allTasks.RunCmd.childTask object at 0x2080b90>)]
+[DEBUG] 2012-11-21 22:58:45 restWkr.py:225 - -----task
+[DEBUG] 2012-11-21 22:58:45 restWkr.py:226 - (100, <allTasks.RunCmd.childTask object at 0x2080b90>)
+[DEBUG] 2012-11-21 22:58:45 restWkr.py:227 - <allTasks.RunCmd.childTask object at 0x2080b90>
+[INFO ] 2012-11-21 22:58:45 restWkr.py:228 - Task Type is RunCmd with Priority 100
+[DEBUG] 2012-11-21 22:58:45 restWkr.py:229 - following is the parameter for this task
+[INFO ] 2012-11-21 22:58:45 baseTask.py:51 - CmdText:ls -l
+[DEBUG] 2012-11-21 22:58:45 restWkr.py:230 - CmdText:ls -l
+
+[INFO ] 2012-11-21 22:58:45 restWkr.py:251 - Finished performing task
+[DEBUG] 2012-11-21 22:58:45 restWkr.py:254 - Clean Task
+[DEBUG] 2012-11-21 22:58:45 restWkr.py:255 - [(100, <allTasks.RunCmd.childTask object at 0x2080b90>)]
+[INFO ] 2012-11-21 22:58:45 restWkr.py:85 - Worker finishes task:/home/jacky/AquaClient/tasklist/schedule/task_415224d6-33cd-11e2-afc1-406c8f1569e2.tk
+[DEBUG] 2012-11-21 22:58:45 restSchTkMgr.py:222 - ImmediateTasks
+[DEBUG] 2012-11-21 22:58:45 restSchTkMgr.py:280 - Task task_415224d6-33cd-11e2-afc1-406c8f1569e2.tk is overdue
+[INFO ] 2012-11-21 22:58:45 restSchTkMgr.py:285 - Move finished overdue taskfile task_415224d6-33cd-11e2-afc1-406c8f1569e2.tk to Overdue directory
+[DEBUG] 2012-11-21 22:58:45 restSchTkMgr.py:299 - Copying file /home/jacky/AquaClient/tasklist/schedule/task_415224d6-33cd-11e2-afc1-406c8f1569e2.tk to the folder /home/jacky/AquaClient/tasklist/overdue
+[DEBUG] 2012-11-21 22:58:46 restSchTkMgr.py:312 - Removing file /home/jacky/AquaClient/tasklist/schedule/task_415224d6-33cd-11e2-afc1-406c8f1569e2.tk
+[DEBUG] 2012-11-21 22:58:46 restWkr.py:72 - restTask Worker: waiting for new task...
+[DEBUG] 2012-11-21 23:01:31 policyServer.py:43 - ...connect from: ('10.40.56.124', 63632)
+[DEBUG] 2012-11-21 23:01:32 policyServer.py:46 - received data is <policy-file-request/>  
+[DEBUG] 2012-11-21 23:01:32 policyServer.py:40 - policy Server: waiting for connection...
+[DEBUG] 2012-11-21 23:01:32 machineAnswer.py:44 - ...connect from: ('10.40.56.124', 63633)
+[DEBUG] 2012-11-21 23:01:33 machineAnswer.py:51 - received data is machineInfo 
+[DEBUG] 2012-11-21 23:01:33 machineAnswer.py:42 - machine Answer: waiting for connection...
+[INFO ] 2012-11-21 23:06:02 restAdm.py:36 - -----Startup restTask Admin
+[INFO ] 2012-11-21 23:06:03 restWkr.py:37 - -----Startup restTask worker
+[INFO ] 2012-11-21 23:06:03 restSchTkMgr.py:27 - -----Startup restTask schedule Manager
+[INFO ] 2012-11-21 23:06:03 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Immediate
+[INFO ] 2012-11-21 23:06:03 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Once
+[INFO ] 2012-11-21 23:06:03 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Daily
+[INFO ] 2012-11-21 23:06:03 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Weekly
+[INFO ] 2012-11-21 23:06:03 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Monthly
+[INFO ] 2012-11-21 23:06:03 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Customize
+[DEBUG] 2012-11-21 23:06:03 restWkr.py:72 - restTask Worker: waiting for new task...
+[INFO ] 2012-11-21 23:06:03 machineAnswer.py:35 - -----Startup machine Answer
+[DEBUG] 2012-11-21 23:06:03 machineAnswer.py:42 - machine Answer: waiting for connection...
+[INFO ] 2012-11-21 23:06:03 remoteListener.py:31 - -----Startup remote listener
+[INFO ] 2012-11-21 23:06:03 restAdm.py:87 - Waiting for receiving new job...
+[INFO ] 2012-11-21 23:06:03 policyServer.py:34 - -----Startup Policy Server
+[DEBUG] 2012-11-21 23:06:03 policyServer.py:40 - policy Server: waiting for connection...
+[INFO ] 2012-11-21 23:07:23 restAdm.py:36 - -----Startup restTask Admin
+[INFO ] 2012-11-21 23:07:23 restWkr.py:37 - -----Startup restTask worker
+[INFO ] 2012-11-21 23:07:23 restSchTkMgr.py:27 - -----Startup restTask schedule Manager
+[INFO ] 2012-11-21 23:07:23 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Immediate
+[INFO ] 2012-11-21 23:07:23 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Once
+[INFO ] 2012-11-21 23:07:23 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Daily
+[INFO ] 2012-11-21 23:07:23 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Weekly
+[INFO ] 2012-11-21 23:07:23 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Monthly
+[INFO ] 2012-11-21 23:07:23 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Customize
+[DEBUG] 2012-11-21 23:07:23 restWkr.py:72 - restTask Worker: waiting for new task...
+[INFO ] 2012-11-21 23:07:23 machineAnswer.py:35 - -----Startup machine Answer
+[DEBUG] 2012-11-21 23:07:23 machineAnswer.py:42 - machine Answer: waiting for connection...
+[INFO ] 2012-11-21 23:07:23 remoteListener.py:31 - -----Startup remote listener
+[INFO ] 2012-11-21 23:07:23 restAdm.py:87 - Waiting for receiving new job...
+[INFO ] 2012-11-21 23:07:23 policyServer.py:34 - -----Startup Policy Server
+[DEBUG] 2012-11-21 23:07:23 policyServer.py:40 - policy Server: waiting for connection...
+[DEBUG] 2012-11-21 23:07:45 policyServer.py:43 - ...connect from: ('10.40.56.124', 63878)
+[DEBUG] 2012-11-21 23:07:45 policyServer.py:46 - received data is <policy-file-request/>  
+[DEBUG] 2012-11-21 23:07:45 policyServer.py:40 - policy Server: waiting for connection...
+[DEBUG] 2012-11-21 23:07:46 machineAnswer.py:44 - ...connect from: ('10.40.56.124', 63879)
+[DEBUG] 2012-11-21 23:07:46 machineAnswer.py:51 - received data is machineInfo 
+[DEBUG] 2012-11-21 23:07:46 machineAnswer.py:42 - machine Answer: waiting for connection...
+[DEBUG] 2012-11-21 23:07:59 machineAnswer.py:44 - ...connect from: ('10.40.56.124', 63888)
+[DEBUG] 2012-11-21 23:07:59 machineAnswer.py:51 - received data is machineInfo 
+[DEBUG] 2012-11-21 23:07:59 machineAnswer.py:42 - machine Answer: waiting for connection...
+[INFO ] 2012-11-21 23:18:37 restAdm.py:36 - -----Startup restTask Admin
+[INFO ] 2012-11-21 23:18:37 restWkr.py:37 - -----Startup restTask worker
+[INFO ] 2012-11-21 23:18:37 restSchTkMgr.py:27 - -----Startup restTask schedule Manager
+[INFO ] 2012-11-21 23:18:37 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Immediate
+[INFO ] 2012-11-21 23:18:37 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Once
+[INFO ] 2012-11-21 23:18:37 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Daily
+[INFO ] 2012-11-21 23:18:37 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Weekly
+[INFO ] 2012-11-21 23:18:37 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Monthly
+[INFO ] 2012-11-21 23:18:37 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Customize
+[DEBUG] 2012-11-21 23:18:37 restWkr.py:72 - restTask Worker: waiting for new task...
+[INFO ] 2012-11-21 23:18:37 machineAnswer.py:35 - -----Startup machine Answer
+[DEBUG] 2012-11-21 23:18:37 machineAnswer.py:42 - machine Answer: waiting for connection...
+[INFO ] 2012-11-21 23:18:38 remoteListener.py:31 - -----Startup remote listener
+[INFO ] 2012-11-21 23:18:38 restAdm.py:87 - Waiting for receiving new job...
+[INFO ] 2012-11-21 23:18:38 policyServer.py:34 - -----Startup Policy Server
+[DEBUG] 2012-11-21 23:18:38 policyServer.py:40 - policy Server: waiting for connection...
+[INFO ] 2012-11-21 23:19:12 restAdm.py:36 - -----Startup restTask Admin
+[INFO ] 2012-11-21 23:19:13 restWkr.py:37 - -----Startup restTask worker
+[INFO ] 2012-11-21 23:19:13 restSchTkMgr.py:27 - -----Startup restTask schedule Manager
+[INFO ] 2012-11-21 23:19:13 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Immediate
+[INFO ] 2012-11-21 23:19:13 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Once
+[INFO ] 2012-11-21 23:19:13 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Daily
+[INFO ] 2012-11-21 23:19:13 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Weekly
+[INFO ] 2012-11-21 23:19:13 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Monthly
+[INFO ] 2012-11-21 23:19:13 TasksTypeMgr.py:21 - -----Generete a new Type Manager:Customize
+[DEBUG] 2012-11-21 23:19:13 restWkr.py:72 - restTask Worker: waiting for new task...
+[INFO ] 2012-11-21 23:19:13 machineAnswer.py:35 - -----Startup machine Answer
+[DEBUG] 2012-11-21 23:19:13 machineAnswer.py:42 - machine Answer: waiting for connection...
+[INFO ] 2012-11-21 23:19:13 remoteListener.py:31 - -----Startup remote listener
+[INFO ] 2012-11-21 23:19:13 restAdm.py:87 - Waiting for receiving new job...
+[INFO ] 2012-11-21 23:19:13 policyServer.py:34 - -----Startup Policy Server
+[DEBUG] 2012-11-21 23:19:13 policyServer.py:40 - policy Server: waiting for connection...
+[DEBUG] 2012-11-21 23:23:33 machineAnswer.py:44 - ...connect from: ('10.40.56.124', 64641)
+[DEBUG] 2012-11-21 23:23:33 machineAnswer.py:51 - received data is machineInfo 
+[DEBUG] 2012-11-21 23:23:33 machineAnswer.py:58 - <?xml version="1.0" ?>
+<Machine arch="Ubuntu" sysVol="root">
+	<partitions>
+		<Partition>
+			<label>
+				r
+			</label>
+		</Partition>
+		<Partition>
+			<label>
+				o
+			</label>
+		</Partition>
+		<Partition>
+			<label>
+				o
+			</label>
+		</Partition>
+		<Partition>
+			<label>
+				t
+			</label>
+		</Partition>
+	</partitions>
+</Machine>
+
+[DEBUG] 2012-11-21 23:23:33 machineAnswer.py:42 - machine Answer: waiting for connection...
+[DEBUG] 2012-11-21 23:24:17 restAdm.py:89 - Connect from 10.40.56.124:64677
+[DEBUG] 2012-11-21 23:24:17 restAdm.py:103 - <Tasks title="just list" username="yxli" sortpattern="linear" startDate="2012-11-22" startTime="14:30:0" type="ImmediateTasks" comment="" timeout="10" timezone="CST">
+  <Task priority="1" type="RunCmd">
+    <param name="CmdText" value="ls"/>
+  </Task>
+</Tasks>
+[INFO ] 2012-11-21 23:24:17 restAdm.py:106 - Receiving a task file task_3e6b2128-346d-11e2-acb3-005056a750f0.tk
+[DEBUG] 2012-11-21 23:24:18 restSchTkMgr.py:163 - Task file task_3e6b2128-346d-11e2-acb3-005056a750f0.tk's Type:ImmediateTasks
+[INFO ] 2012-11-21 23:24:18 TasksTypeMgr.py:161 - Task task_3e6b2128-346d-11e2-acb3-005056a750f0.tk will be kicked off on 2012-11-21 23:24:19 Wednesday (Mountain Standard Time)
+[INFO ] 2012-11-21 23:24:18 restAdm.py:87 - Waiting for receiving new job...
+[INFO ] 2012-11-21 23:24:19 restWkr.py:80 - Worker gets new task:/home/jacky/AquaClient/tasklist/schedule/task_3e6b2128-346d-11e2-acb3-005056a750f0.tk
+[DEBUG] 2012-11-21 23:24:19 restWkr.py:312 - from allTasks.RunCmd import childTask
+[INFO ] 2012-11-21 23:24:19 baseTask.py:20 - Create a new RunCmd task with priority 100
+[DEBUG] 2012-11-21 23:24:19 restWkr.py:206 - [(100, <allTasks.RunCmd.childTask object at 0x2f04810>)]
+[DEBUG] 2012-11-21 23:24:19 restWkr.py:218 - -----
+[DEBUG] 2012-11-21 23:24:19 restWkr.py:219 - [(100, <allTasks.RunCmd.childTask object at 0x2f04810>)]
+[DEBUG] 2012-11-21 23:24:19 restWkr.py:225 - -----task
+[DEBUG] 2012-11-21 23:24:19 restWkr.py:226 - (100, <allTasks.RunCmd.childTask object at 0x2f04810>)
+[DEBUG] 2012-11-21 23:24:19 restWkr.py:227 - <allTasks.RunCmd.childTask object at 0x2f04810>
+[INFO ] 2012-11-21 23:24:19 restWkr.py:228 - Task Type is RunCmd with Priority 100
+[DEBUG] 2012-11-21 23:24:19 restWkr.py:229 - following is the parameter for this task
+[INFO ] 2012-11-21 23:24:19 baseTask.py:51 - CmdText:ls
+[DEBUG] 2012-11-21 23:24:19 restWkr.py:230 - CmdText:ls
+
+[INFO ] 2012-11-21 23:24:19 restWkr.py:251 - Finished performing task
+[DEBUG] 2012-11-21 23:24:19 restWkr.py:254 - Clean Task
+[DEBUG] 2012-11-21 23:24:19 restWkr.py:255 - [(100, <allTasks.RunCmd.childTask object at 0x2f04810>)]
+[INFO ] 2012-11-21 23:24:19 restWkr.py:85 - Worker finishes task:/home/jacky/AquaClient/tasklist/schedule/task_3e6b2128-346d-11e2-acb3-005056a750f0.tk
+[DEBUG] 2012-11-21 23:24:19 restSchTkMgr.py:222 - ImmediateTasks
+[DEBUG] 2012-11-21 23:24:19 restSchTkMgr.py:280 - Task task_3e6b2128-346d-11e2-acb3-005056a750f0.tk is overdue
+[INFO ] 2012-11-21 23:24:19 restSchTkMgr.py:285 - Move finished overdue taskfile task_3e6b2128-346d-11e2-acb3-005056a750f0.tk to Overdue directory
+[DEBUG] 2012-11-21 23:24:19 restSchTkMgr.py:299 - Copying file /home/jacky/AquaClient/tasklist/schedule/task_3e6b2128-346d-11e2-acb3-005056a750f0.tk to the folder /home/jacky/AquaClient/tasklist/overdue
+[DEBUG] 2012-11-21 23:24:20 restSchTkMgr.py:312 - Removing file /home/jacky/AquaClient/tasklist/schedule/task_3e6b2128-346d-11e2-acb3-005056a750f0.tk
+[DEBUG] 2012-11-21 23:24:20 restWkr.py:72 - restTask Worker: waiting for new task...
+[DEBUG] 2012-11-21 23:24:32 restAdm.py:89 - Connect from 10.40.56.124:64689
+[DEBUG] 2012-11-21 23:24:32 restAdm.py:103 - <Tasks title="just list" username="yxli" sortpattern="linear" startDate="2012-11-22" startTime="14:30:0" type="ImmediateTasks" comment="" timeout="10" timezone="CST">
+  <Task priority="1" type="RunCmd">
+    <param name="CmdText" value="ls -l"/>
+  </Task>
+</Tasks>
+[INFO ] 2012-11-21 23:24:32 restAdm.py:106 - Receiving a task file task_46e7d1ac-346d-11e2-acb3-005056a750f0.tk
+[DEBUG] 2012-11-21 23:24:32 restSchTkMgr.py:163 - Task file task_46e7d1ac-346d-11e2-acb3-005056a750f0.tk's Type:ImmediateTasks
+[INFO ] 2012-11-21 23:24:32 TasksTypeMgr.py:161 - Task task_46e7d1ac-346d-11e2-acb3-005056a750f0.tk will be kicked off on 2012-11-21 23:24:33 Wednesday (Mountain Standard Time)
+[INFO ] 2012-11-21 23:24:32 restAdm.py:87 - Waiting for receiving new job...
+[INFO ] 2012-11-21 23:24:33 restWkr.py:80 - Worker gets new task:/home/jacky/AquaClient/tasklist/schedule/task_46e7d1ac-346d-11e2-acb3-005056a750f0.tk
+[DEBUG] 2012-11-21 23:24:33 restWkr.py:312 - from allTasks.RunCmd import childTask
+[INFO ] 2012-11-21 23:24:33 baseTask.py:20 - Create a new RunCmd task with priority 100
+[DEBUG] 2012-11-21 23:24:33 restWkr.py:206 - [(100, <allTasks.RunCmd.childTask object at 0x2f04450>)]
+[DEBUG] 2012-11-21 23:24:33 restWkr.py:218 - -----
+[DEBUG] 2012-11-21 23:24:33 restWkr.py:219 - [(100, <allTasks.RunCmd.childTask object at 0x2f04450>)]
+[DEBUG] 2012-11-21 23:24:33 restWkr.py:225 - -----task
+[DEBUG] 2012-11-21 23:24:33 restWkr.py:226 - (100, <allTasks.RunCmd.childTask object at 0x2f04450>)
+[DEBUG] 2012-11-21 23:24:33 restWkr.py:227 - <allTasks.RunCmd.childTask object at 0x2f04450>
+[INFO ] 2012-11-21 23:24:33 restWkr.py:228 - Task Type is RunCmd with Priority 100
+[DEBUG] 2012-11-21 23:24:33 restWkr.py:229 - following is the parameter for this task
+[INFO ] 2012-11-21 23:24:33 baseTask.py:51 - CmdText:ls -l
+[DEBUG] 2012-11-21 23:24:33 restWkr.py:230 - CmdText:ls -l
+
+[INFO ] 2012-11-21 23:24:33 restWkr.py:251 - Finished performing task
+[DEBUG] 2012-11-21 23:24:33 restWkr.py:254 - Clean Task
+[DEBUG] 2012-11-21 23:24:33 restWkr.py:255 - [(100, <allTasks.RunCmd.childTask object at 0x2f04450>)]
+[INFO ] 2012-11-21 23:24:33 restWkr.py:85 - Worker finishes task:/home/jacky/AquaClient/tasklist/schedule/task_46e7d1ac-346d-11e2-acb3-005056a750f0.tk
+[DEBUG] 2012-11-21 23:24:33 restSchTkMgr.py:222 - ImmediateTasks
+[DEBUG] 2012-11-21 23:24:33 restSchTkMgr.py:280 - Task task_46e7d1ac-346d-11e2-acb3-005056a750f0.tk is overdue
+[INFO ] 2012-11-21 23:24:33 restSchTkMgr.py:285 - Move finished overdue taskfile task_46e7d1ac-346d-11e2-acb3-005056a750f0.tk to Overdue directory
+[DEBUG] 2012-11-21 23:24:33 restSchTkMgr.py:299 - Copying file /home/jacky/AquaClient/tasklist/schedule/task_46e7d1ac-346d-11e2-acb3-005056a750f0.tk to the folder /home/jacky/AquaClient/tasklist/overdue
+[DEBUG] 2012-11-21 23:24:34 restSchTkMgr.py:312 - Removing file /home/jacky/AquaClient/tasklist/schedule/task_46e7d1ac-346d-11e2-acb3-005056a750f0.tk
+[DEBUG] 2012-11-21 23:24:34 restWkr.py:72 - restTask Worker: waiting for new task...

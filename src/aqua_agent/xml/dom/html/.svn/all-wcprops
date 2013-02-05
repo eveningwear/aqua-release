@@ -1,0 +1,359 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html
+END
+HTMLTableCellElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLTableCellElement.py
+END
+HTMLTextAreaElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLTextAreaElement.py
+END
+HTMLAppletElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLAppletElement.py
+END
+HTMLDivElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLDivElement.py
+END
+HTMLLIElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLLIElement.py
+END
+HTMLMenuElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLMenuElement.py
+END
+HTMLElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLElement.py
+END
+HTMLHeadElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLHeadElement.py
+END
+HTMLTitleElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLTitleElement.py
+END
+HTMLBodyElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLBodyElement.py
+END
+HTMLImageElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLImageElement.py
+END
+HTMLMapElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLMapElement.py
+END
+HTMLHRElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLHRElement.py
+END
+HTMLHtmlElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLHtmlElement.py
+END
+HTMLDocument.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLDocument.py
+END
+HTMLDListElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLDListElement.py
+END
+HTMLTableRowElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLTableRowElement.py
+END
+HTMLPreElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLPreElement.py
+END
+HTMLBRElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLBRElement.py
+END
+GenerateHtml.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/GenerateHtml.py
+END
+HTMLButtonElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLButtonElement.py
+END
+HTMLFrameSetElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLFrameSetElement.py
+END
+HTMLOptionElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLOptionElement.py
+END
+HTMLAnchorElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLAnchorElement.py
+END
+HTMLFrameElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLFrameElement.py
+END
+HTMLOListElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLOListElement.py
+END
+HTMLDirectoryElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLDirectoryElement.py
+END
+HTMLTableSectionElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLTableSectionElement.py
+END
+HTMLParagraphElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLParagraphElement.py
+END
+HTMLTableCaptionElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLTableCaptionElement.py
+END
+HTMLLinkElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLLinkElement.py
+END
+HTMLStyleElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLStyleElement.py
+END
+HTMLSelectElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLSelectElement.py
+END
+HTMLUListElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLUListElement.py
+END
+HTMLLabelElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLLabelElement.py
+END
+HTMLObjectElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLObjectElement.py
+END
+HTMLBaseFontElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLBaseFontElement.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/__init__.py
+END
+HTMLIFrameElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLIFrameElement.py
+END
+HTMLFormElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLFormElement.py
+END
+HTMLMetaElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLMetaElement.py
+END
+HTMLQuoteElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLQuoteElement.py
+END
+HTMLFieldSetElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLFieldSetElement.py
+END
+HTMLDOMImplementation.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLDOMImplementation.py
+END
+HTMLCollection.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLCollection.py
+END
+HTMLScriptElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLScriptElement.py
+END
+HTMLHeadingElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLHeadingElement.py
+END
+HTMLOptGroupElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLOptGroupElement.py
+END
+HTMLModElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLModElement.py
+END
+HTMLLegendElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLLegendElement.py
+END
+HTMLAreaElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLAreaElement.py
+END
+HTMLFontElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLFontElement.py
+END
+HTMLBaseElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLBaseElement.py
+END
+HTMLTableColElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLTableColElement.py
+END
+HTMLIsIndexElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLIsIndexElement.py
+END
+HTMLInputElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLInputElement.py
+END
+html_classes.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/html_classes.xml
+END
+HTMLParamElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLParamElement.py
+END
+HTMLTableElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/html/HTMLTableElement.py
+END

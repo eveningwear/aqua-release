@@ -1,0 +1,11 @@
+---
+name: aqua_agent
+templates:
+  aqua_agent_ctl: bin/aqua_agent_ctl
+  run_aqua_agent: bin/run_aqua_agent
+  id_rsa.erb: config/id_rsa
+  id_rsa.pub.erb: config/id_rsa.pub
+  authorized_keys.erb: config/authorized_keys
+packages:
+  - common
+  - aqua_agent

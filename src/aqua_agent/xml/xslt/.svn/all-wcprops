@@ -1,0 +1,323 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt
+END
+RtfWriter.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/RtfWriter.py
+END
+XPatternParser.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/XPatternParser.py
+END
+BuiltInExtElements.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/BuiltInExtElements.py
+END
+MessageElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/MessageElement.py
+END
+NumberElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/NumberElement.py
+END
+Processor.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/Processor.py
+END
+StylesheetReader.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/StylesheetReader.py
+END
+ParamElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/ParamElement.py
+END
+Stylesheet.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/Stylesheet.py
+END
+ChooseElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/ChooseElement.py
+END
+ParsedLocationPathPattern.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/ParsedLocationPathPattern.py
+END
+MessageSource.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/MessageSource.py
+END
+TextWriter.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/TextWriter.py
+END
+AttributeElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/AttributeElement.py
+END
+IfElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/IfElement.py
+END
+SortElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/SortElement.py
+END
+HtmlWriter.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/HtmlWriter.py
+END
+CommentElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/CommentElement.py
+END
+LiteralText.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/LiteralText.py
+END
+OtherXslElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/OtherXslElement.py
+END
+minisupport.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/minisupport.py
+END
+XPattern.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/XPattern.py
+END
+AttributeSetElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/AttributeSetElement.py
+END
+WithParamElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/WithParamElement.py
+END
+ValueOfElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/ValueOfElement.py
+END
+ParsedStepPattern.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/ParsedStepPattern.py
+END
+ForEachElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/ForEachElement.py
+END
+ApplyTemplatesElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/ApplyTemplatesElement.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/__init__.py
+END
+CopyOfElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/CopyOfElement.py
+END
+AttributeValueTemplate.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/AttributeValueTemplate.py
+END
+TextElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/TextElement.py
+END
+ParsedRelativePathPattern.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/ParsedRelativePathPattern.py
+END
+LiteralElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/LiteralElement.py
+END
+XsltContext.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/XsltContext.py
+END
+XmlWriter.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/XmlWriter.py
+END
+PlainTextWriter.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/PlainTextWriter.py
+END
+OutputHandler.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/OutputHandler.py
+END
+XPatternParserBase.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/XPatternParserBase.py
+END
+OtherwiseElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/OtherwiseElement.py
+END
+CopyElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/CopyElement.py
+END
+CallTemplateElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/CallTemplateElement.py
+END
+WhenElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/WhenElement.py
+END
+TemplateElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/TemplateElement.py
+END
+ProcessingInstructionElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/ProcessingInstructionElement.py
+END
+VariableElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/VariableElement.py
+END
+ElementElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/ElementElement.py
+END
+ParsedPattern.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/ParsedPattern.py
+END
+TextSax.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/TextSax.py
+END
+Roman.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/Roman.py
+END
+NullWriter.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/NullWriter.py
+END
+_4xslt.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/_4xslt.py
+END
+XsltFunctions.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/xslt/XsltFunctions.py
+END

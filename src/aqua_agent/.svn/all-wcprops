@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/qms/!svn/ver/252/trunk/qmsClient/src
+END
+restAdm.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/qms/!svn/ver/261/trunk/qmsClient/src/restAdm.py
+END
+config.property
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/config.property
+END
+policyServer.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/policyServer.py
+END
+start.bat
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/start.bat
+END
+restWkr.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/qms/!svn/ver/229/trunk/qmsClient/src/restWkr.py
+END
+machine.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/qms/!svn/ver/184/trunk/qmsClient/src/machine.py
+END
+nmb.py
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/nmb.py
+END
+_mysql_exceptions.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/_mysql_exceptions.py
+END
+runonce.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/runonce.cmd
+END
+remoteListener.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/remoteListener.py
+END
+globalProperty.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/qms/!svn/ver/268/trunk/qmsClient/src/globalProperty.py
+END
+QMSWebService.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/qms/!svn/ver/240/trunk/qmsClient/src/QMSWebService.py
+END
+queryBuildSample.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/queryBuildSample.py
+END
+runonce.command
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/runonce.command
+END
+updatecert.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/updatecert.py
+END
+FindRestDrSeed.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/FindRestDrSeed.py
+END
+log.config
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/qms/!svn/ver/228/trunk/qmsClient/src/log.config
+END
+codex.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/codex.py
+END
+smb.py
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/smb.py
+END
+_mysql.pyd
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/_mysql.pyd
+END
+versioninfo.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/versioninfo.py
+END
+machineAnswer.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/qms/!svn/ver/166/trunk/qmsClient/src/machineAnswer.py
+END
+codexdatatypes.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/codexdatatypes.py
+END
+taskFile.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/taskFile.py
+END
+FindRestDrWin.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/FindRestDrWin.py
+END
+runonce.sh
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/runonce.sh
+END
+DbUtil.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/qms/!svn/ver/240/trunk/qmsClient/src/DbUtil.py
+END
+checkRemoteEnv.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/checkRemoteEnv.py
+END
+QMSBuildService.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/QMSBuildService.py
+END
+SynchronizerPool.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/qms/!svn/ver/150/trunk/qmsClient/src/SynchronizerPool.py
+END
+SystemInformation.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/qms/!svn/ver/262/trunk/qmsClient/src/SystemInformation.py
+END
+restSchTkMgr.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/qms/!svn/ver/228/trunk/qmsClient/src/restSchTkMgr.py
+END
+taskPriorityDef.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/taskPriorityDef.py
+END
+fpconst.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/fpconst.py
+END

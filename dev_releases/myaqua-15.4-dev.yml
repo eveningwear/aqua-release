@@ -1,0 +1,21 @@
+--- 
+packages: 
+- name: common
+  version: 0.1-dev
+  sha1: b464171758cc59844a15850fce263106ed908280
+  fingerprint: 47eac3c416f87eb0a648b3dfe45632c654d6e67f
+  dependencies: []
+
+- name: aqua_agent
+  version: 0.2-dev
+  sha1: 9e61fc2e0de68c0bf3994d13f03f100510950e68
+  fingerprint: ecd6cd1487cdc3230bf998230dccdae88fd1c244
+  dependencies: []
+
+jobs: 
+- name: aqua_agent
+  version: 0.3-dev
+  fingerprint: 4c32a5e3da454e98be5147d233eaabc7f0b9e4df
+  sha1: e1ca720af258ac7e1db1a068fc55fc11769c81fd
+name: myaqua
+version: 15.4-dev

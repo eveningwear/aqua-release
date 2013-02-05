@@ -1,0 +1,210 @@
+"""
+
+    restAdm.py
+    
+    Written by: Jacky Li (yxli@adobe.com)
+
+"""
+
+import os.path, sys, os, re, math, time, socket, stat, subprocess
+
+import xml.parsers.expat, ftplib
+
+import globalProperty
+
+from taskPriorityDef import *
+
+import logging
+import logging.config
+import logging.handlers
+
+from threading import Thread
+from restWkr import restWkr
+from restSchTkMgr import restSchTkMgr
+from machineAnswer import machineAnswer
+from remoteListener import remoteListener
+from policyServer import policyServer
+from xml.dom import minidom,Node
+
+class restAdm(Thread):
+    
+    def __init__(self, host='', port=21567, bufsiz=1024):
+        Thread.__init__(self)
+        self.setName('restAdm')
+        logging.config.fileConfig('log.config')
+        self.logger = logging.getLogger()
+        self.logger.info('-----Startup restTask Admin')
+        
+        self.__host = host
+        self.__port = port
+        self.__bufsiz = bufsiz
+        self.__tcpSerSock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        self.__tcpSerSock.bind((host, port))
+        self.__tcpSerSock.listen(5)
+        self.__dbutil = globalProperty.getDbUtil()
+        self.__dropBigSizeLoggingFile()
+        
+    def run(self):
+        globalProperty.restAdminInstance = self
+        
+        self.__worker = globalProperty.getRestWorkerInstance()
+        
+        self.__schMgr = globalProperty.getRestSchTkMgrInstance()
+        
+        #Start Scheduling Job
+        self.__startSchedule()
+        
+        #Start Worker
+        self.__startWorker()
+        
+        self.__machineAnswer = machineAnswer()
+        self.__machineAnswer.setDaemon(False)
+        self.__machineAnswer.start()
+        
+        self.__remoteListener = remoteListener()
+        self.__remoteListener.setDaemon(False)
+        self.__remoteListener.start()
+        
+        self.__policyServer = policyServer()
+        self.__policyServer.setDaemon(False)
+        self.__policyServer.start()
+        
+        self.__loadRestModules()
+        
+        self.__start_listen()
+        
+        time.sleep(5)
+        
+    def __startWorker(self):
+        self.__worker.setDaemon(True)        
+        self.__worker.start()
+        
+    def __startSchedule(self):
+        self.__schMgr.initScheduleTask()
+        
+    def __start_listen(self):
+        while True:
+            self.logger.info('Waiting for receiving new job...')
+            tcpCliSock, addr = self.__tcpSerSock.accept()
+            self.logger.debug('Connect from %s:%s' ,addr[0], addr[1])
+            taskF = None
+                    
+            while True:
+                try:
+                    data = tcpCliSock.recv(self.__bufsiz)
+                    if not data:
+                        break;
+                    elif re.match('.*policy-file-request.*', data):#May not useful
+                        replyPolicy = '<cross-domain-policy><allow-access-from domain="*" to-ports="*" /></cross-domain-policy>'
+                        tcpCliSock.sendall(replyPolicy)
+                        tcpCliSock.sendall('ok')
+                    else:
+                        #data = re.sub(r'.*(<Tasks .*)', r'\1', data)
+                        self.logger.debug(data)
+                        if taskF == None:
+                            (taskFile, taskFileName) = self.__schMgr.getNewScheduleTaskFileName()
+                            self.logger.info('Receiving a task file ' + taskFileName)
+                            taskF = open(taskFile, "wb")
+                        taskF.write(data)
+                        taskF.flush()
+                        if re.search(r'</[tT]asks>\s*$', data):
+                            tcpCliSock.sendall('receive task finished')
+                except socket.error, (value, message):
+                    self.logger.error(message)
+                    if value==10054:
+                        self.logger.info('Connection is closed by client denoting data transmission finished')
+                        break
+                except Exception, e:
+                    self.logger.error(e)
+            try:
+                tcpCliSock.close()
+            except Exception, e:
+                self.logger.error(e)
+            try:
+                if taskF != None:
+                    taskF.close()
+                    self.__callTask(taskFileName, taskFile)
+            except Exception, e:
+                self.logger.error(e)
+                self.logger.info('Please check whether your job file format match request')
+        self.__tcpSerSock.close()
+       
+    def __callTask(self, tkFileName, tkFile, immediate=False):
+        doc = minidom.parse(tkFile)
+        Tasks = doc.getElementsByTagName("Tasks")[0]
+        attrs = {}
+        for attr in Tasks.attributes.items():
+            attrs[str(attr[0])] = str(attr[1])
+        self.__schMgr.updateScheduleTask(tkFileName, attrs, immediate=immediate)
+        return
+    
+    def callTaskByJobContent(self, jobId, jobContent):
+        self.__schMgr.deleteTask(jobId)
+        (taskFile, taskFileName) = self.__schMgr.getNewScheduleTaskFileName(jobId)
+        taskF = file(taskFile, 'w')
+        try:
+            taskF.write(jobContent)
+            taskF.flush()
+        except Exception, e:
+            self.logger.error(e)
+        finally:
+            if taskF: taskF.close()
+        
+        self.__callTask(taskFileName, taskFile, True)
+        
+    def __loadRestModules(self):
+        modulesFolder = os.path.join(os.getcwd(), 'sysModule')
+        self.modules = ["_init_"]
+        try:
+            files = os.listdir(modulesFolder)
+            for f in files:
+                try:
+                    moduleName = f.split(".")[0]
+                    if not moduleName in self.modules:
+                        loadModuleCommand = "from sysModule import %s" % moduleName
+                        exec loadModuleCommand
+                        self.modules.append(moduleName)
+                        runModuleCommand = "subModule = %s.%s()" %(moduleName, moduleName.lower())
+                        exec runModuleCommand
+                        subModule.setDaemon(False)
+                        subModule.start()
+                except Exception, e:
+                    pass
+        except Exception, e:
+            pass
+        
+    def __dropBigSizeLoggingFile(self):
+        curFolder = os.getcwd()
+        for i in range(10):
+            oldLogFilePath = os.path.join(curFolder, 'qms.log.%s' %(i+1))
+            if os.path.exists(oldLogFilePath) and os.stat(oldLogFilePath)[stat.ST_SIZE]>1048576*10:
+                try:
+                    os.remove(oldLogFilePath)
+                except:
+                    self.logger.warn("The log file %s has exceeded the Max File Size" % oldLogFilePath)
+
+if __name__ == "__main__":
+    '''
+    logging.config.fileConfig('log.config')
+    mylogger = logging.getLogger()
+    mylogger.info('\n')
+    mylogger.info('---------------------------------------')
+    mylogger.info('-----Startup restTask Doctor 1.0-------')
+    mylogger.info('---------------------------------------')
+    
+    startFileName = 'FindRestDrWin.py'
+    startFileFullPath = os.path.normpath(os.path.expanduser('~\Start Menu\Programs\Startup' + '/' + startFileName))
+    if os.path.exists(startFileFullPath):
+        os.remove(startFileFullPath)
+    '''
+    #host = socket.gethostbyname(socket.gethostname())
+    #clear schedule, see allTasks/Update.py
+    if os.name == 'nt':
+        os.system('at /d /y')
+    #else:
+    #    os.system('crontab -l | grep -v callpy | xargs echo > ct && crontab < ct && rm ct')        
+    #    os.system('crontab -l | grep -v QMSGate | xargs echo > ct && crontab < ct && rm ct')
+    restAdm = restAdm()
+    restAdm.setDaemon(False)
+    restAdm.start()
+    

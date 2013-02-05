@@ -1,0 +1,263 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/qms/!svn/ver/253/trunk/qmsClient/src/allTasks
+END
+baseTask.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/qms/!svn/ver/228/trunk/qmsClient/src/allTasks/baseTask.py
+END
+Read.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/qms/!svn/ver/133/trunk/qmsClient/src/allTasks/Read.py
+END
+MiniBrInstall.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/allTasks/MiniBrInstall.py
+END
+OSLang.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/qms/!svn/ver/17/trunk/qmsClient/src/allTasks/OSLang.py
+END
+CodexTask.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/qms/!svn/ver/167/trunk/qmsClient/src/allTasks/CodexTask.py
+END
+RunCmd.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/allTasks/RunCmd.py
+END
+AcidTest.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/allTasks/AcidTest.py
+END
+AsyncFTPTask.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/allTasks/AsyncFTPTask.py
+END
+Delete.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/qms/!svn/ver/133/trunk/qmsClient/src/allTasks/Delete.py
+END
+MiniBrPerfTestTask.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/allTasks/MiniBrPerfTestTask.py
+END
+TestwerkThumbPerf.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/allTasks/TestwerkThumbPerf.py
+END
+PSFReporter.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/allTasks/PSFReporter.py
+END
+RemoteConnect.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/allTasks/RemoteConnect.py
+END
+ThumbPerfReady.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/allTasks/ThumbPerfReady.py
+END
+PhotoshopAppInstall.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/allTasks/PhotoshopAppInstall.py
+END
+Rename.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/allTasks/Rename.py
+END
+EmailUtil.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/allTasks/EmailUtil.py
+END
+AppInstall.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/qms/!svn/ver/260/trunk/qmsClient/src/allTasks/AppInstall.py
+END
+AutoDelete.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/qms/!svn/ver/133/trunk/qmsClient/src/allTasks/AutoDelete.py
+END
+PhotoshopInstall.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/qms/!svn/ver/266/trunk/qmsClient/src/allTasks/PhotoshopInstall.py
+END
+HtmlEmailUtil.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/qms/!svn/ver/46/trunk/qmsClient/src/allTasks/HtmlEmailUtil.py
+END
+RestoreOS.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/qms/!svn/ver/81/trunk/qmsClient/src/allTasks/RestoreOS.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/allTasks/__init__.py
+END
+ExampleTask.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/allTasks/ExampleTask.py
+END
+Restart.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/allTasks/Restart.py
+END
+MSIInstallerTask.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/qms/!svn/ver/209/trunk/qmsClient/src/allTasks/MSIInstallerTask.py
+END
+RebootOS.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/qms/!svn/ver/228/trunk/qmsClient/src/allTasks/RebootOS.py
+END
+CamerawInstall.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/allTasks/CamerawInstall.py
+END
+Update.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/qms/!svn/ver/240/trunk/qmsClient/src/allTasks/Update.py
+END
+PSFTask.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/qms/!svn/ver/267/trunk/qmsClient/src/allTasks/PSFTask.py
+END
+FTPUploadTask.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/qms/!svn/ver/207/trunk/qmsClient/src/allTasks/FTPUploadTask.py
+END
+RunSikuli.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/qms/!svn/ver/203/trunk/qmsClient/src/allTasks/RunSikuli.py
+END
+FTPTask.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/qms/!svn/ver/263/trunk/qmsClient/src/allTasks/FTPTask.py
+END
+SambaUploadTask.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/allTasks/SambaUploadTask.py
+END
+SambaTask.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/allTasks/SambaTask.py
+END
+SuiteInstall.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/qms/!svn/ver/240/trunk/qmsClient/src/allTasks/SuiteInstall.py
+END
+KillTask.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/qms/!svn/ver/118/trunk/qmsClient/src/allTasks/KillTask.py
+END
+TaskOperation.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/allTasks/TaskOperation.py
+END
+PSFLog.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/allTasks/PSFLog.py
+END
+PsPSFReporter.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/qms/!svn/ver/101/trunk/qmsClient/src/allTasks/PsPSFReporter.py
+END
+PSFCaseAreaParser.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/allTasks/PSFCaseAreaParser.py
+END
+EmailMonitor.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/qms/!svn/ver/240/trunk/qmsClient/src/allTasks/EmailMonitor.py
+END
+CircleRestore.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/qms/!svn/ver/219/trunk/qmsClient/src/allTasks/CircleRestore.py
+END

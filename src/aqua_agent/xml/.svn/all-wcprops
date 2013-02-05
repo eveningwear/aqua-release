@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml
+END
+ns.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/ns.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/__init__.py
+END
+FtCore.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/FtCore.py
+END

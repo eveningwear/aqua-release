@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/ext
+END
+XHtmlPrinter.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/ext/XHtmlPrinter.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/ext/__init__.py
+END
+XHtml2HtmlPrinter.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/ext/XHtml2HtmlPrinter.py
+END
+Visitor.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/ext/Visitor.py
+END
+Dom2Sax.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/ext/Dom2Sax.py
+END
+Printer.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/ext/Printer.py
+END
+c14n.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/ext/c14n.py
+END

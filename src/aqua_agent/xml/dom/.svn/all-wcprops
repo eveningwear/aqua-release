@@ -1,0 +1,239 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom
+END
+DocumentType.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/DocumentType.py
+END
+DOMImplementation.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/DOMImplementation.py
+END
+CharacterData.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/CharacterData.py
+END
+Attr.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/Attr.py
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/TODO
+END
+NodeIterator.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/NodeIterator.py
+END
+Text.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/Text.py
+END
+minidom.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/minidom.py
+END
+expatbuilder.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/expatbuilder.py
+END
+de.po
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/de.po
+END
+minitraversal.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/minitraversal.py
+END
+xmlbuilder.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/xmlbuilder.py
+END
+Entity.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/Entity.py
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/ChangeLog
+END
+Notation.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/Notation.py
+END
+MessageSource.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/MessageSource.py
+END
+javadom.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/javadom.py
+END
+NodeList.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/NodeList.py
+END
+Comment.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/Comment.py
+END
+Element.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/Element.py
+END
+Document.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/Document.py
+END
+fr.po
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/fr.po
+END
+TreeWalker.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/TreeWalker.py
+END
+domreg.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/domreg.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/__init__.py
+END
+FtNode.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/FtNode.py
+END
+COPYRIGHT
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/COPYRIGHT
+END
+DocumentFragment.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/DocumentFragment.py
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/README
+END
+EntityReference.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/EntityReference.py
+END
+NamedNodeMap.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/NamedNodeMap.py
+END
+en_US.po
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/en_US.po
+END
+Range.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/Range.py
+END
+pulldom.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/pulldom.py
+END
+ProcessingInstruction.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/ProcessingInstruction.py
+END
+Event.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/Event.py
+END
+NodeFilter.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/NodeFilter.py
+END
+minicompat.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/minicompat.py
+END
+CDATASection.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/xml/dom/CDATASection.py
+END

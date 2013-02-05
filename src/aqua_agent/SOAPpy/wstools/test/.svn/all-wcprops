@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/SOAPpy/wstools/test
+END
+test_wstools.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/SOAPpy/wstools/test/test_wstools.py
+END
+test_wsdl.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/SOAPpy/wstools/test/test_wsdl.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/SOAPpy/wstools/test/__init__.py
+END
+test_wstools_net.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/SOAPpy/wstools/test/test_wstools_net.py
+END
+test_t1.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/qms/!svn/ver/2/trunk/qmsClient/src/SOAPpy/wstools/test/test_t1.py
+END

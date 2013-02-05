@@ -1,0 +1,55 @@
+#!/bin/bash
+
+RUN_DIR=/var/vcap/sys/run/aqua_agent
+LOG_DIR=/var/vcap/sys/log/aqua_agent
+PIDFILE=$RUN_DIR/aqua_agent.pid
+FS_ROOT=/var/vcap/store/aqua_agent
+JOB_DIR=/var/vcap/jobs/aqua_agent
+CONFIG_DIR=/var/vcap/jobs/aqua_agent/config
+SSH_DIR=/home/vcap/.ssh/
+
+source /var/vcap/packages/common/utils.sh
+
+case $1 in
+
+  start)
+    mkdir -p $RUN_DIR $LOG_DIR $FS_ROOT $SSH_DIR
+    chown -R vcap:vcap $RUN_DIR $LOG_DIR $FS_ROOT $SSH_DIR
+
+    mkdir -p /home/vcap/.ssh
+    chmod 0700 /home/vcap/.ssh
+
+    cp $CONFIG_DIR/{id_rsa,id_rsa.pub,authorized_keys} /home/vcap/.ssh
+    chmod 0600 /home/vcap/.ssh/{id_rsa,id_rsa.pub,authorized_keys}
+    chown -R vcap:vcap /home/vcap/.ssh
+    chown -R vcap:vcap /var/vcap/packages/elasticsearch/*
+
+    # Refresh host key for github
+    su - vcap -c 'ssh-keygen -f /home/vcap/.ssh/known_hosts  -R github.com'
+    su - vcap -c 'ssh-keyscan github.com >> /home/vcap/.ssh/known_hosts'
+
+    cat /etc/sudoers | grep "vcap  ALL=(ALL) NOPASSWD: ALL" > /dev/null 2>&1
+    [ $? != 0 ] && echo "vcap  ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+
+    cp -rf /var/vcap/packages/aqua_agent/* /var/vcap/store/aqua_agent
+    chown -R vcap:vcap ${FS_ROOT}
+
+    echo $$ > $PIDFILE
+
+    su - vcap -c "$JOB_DIR/bin/run_aqua_agent"
+
+    #No monit needed, pass back to init
+    ;;
+
+  stop)
+    killall python
+    kill_and_wait $PIDFILE
+    rm -f $PIDFILE
+    ;;
+
+  *)
+  echo "Usage: aqua_agent_ctl {start|stop}" ;;
+
+esac
+exit 0
+
